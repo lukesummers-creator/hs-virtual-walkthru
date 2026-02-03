@@ -6,7 +6,7 @@ h2{font-size:16px;margin:0;}
 .section{border:1px solid #ddd;border-radius:10px;padding:14px;margin:0 0 18px;}
 .line{font-size:13px;margin:4px 0;}
 .summary .line{line-height:1.2;}
- .section{padding:10px;} .imgs img{max-width:100%;height:auto;max-height:none;}}
+@media (max-width:600px){body{margin:12px;} .section{padding:10px;} .imgs img{max-width:100%;width:100%;height:auto;max-height:none;}}
 
 .gallery{margin-top:8px;padding:8px 8px 10px 12px;background:#f2f2f2;border-radius:10px;}
 .swipe-hint{font-size:12px;color:#666;margin:0 0 6px 2px;}
@@ -20,7 +20,9 @@ h2{font-size:16px;margin:0;}
 .one-photo .imgs::after{content:'';flex:0 0 0;}
 
 @media (min-width: 768px){
-  .imgs img{max-height:420px;}
+  .imgs img{flex:0 0 360px;width:360px;max-width:360px;max-height:420px;}
+  .imgs::after{flex:0 0 40px;}
+}
 }
 </style></head><body>
 <h1>HS-2026-02-03-K7Q2 — Paint Scope</h1><p class='meta'>Public-safe export. Address/client identifiers removed. Paint only. Dimensions rounded down to nearest foot. Room photos only.</p>
