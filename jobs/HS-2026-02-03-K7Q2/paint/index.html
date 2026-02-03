@@ -6,9 +6,18 @@ h2{font-size:16px;margin:0;}
 .section{border:1px solid #ddd;border-radius:10px;padding:14px;margin:0 0 18px;}
 .line{font-size:13px;margin:4px 0;}
 .summary .line{line-height:1.2;}
-.imgs{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px;}
-.imgs img{max-width:240px;max-height:180px;border:1px solid #ccc;border-radius:6px;}
-@media (max-width:600px){body{margin:12px;} .section{padding:10px;} .imgs img{max-width:100%;height:auto;max-height:none;}}
+ .section{padding:10px;} .imgs img{max-width:100%;height:auto;max-height:none;}}
+
+.gallery{margin-top:8px;padding:8px 8px 10px 12px;background:#f2f2f2;border-radius:10px;}
+.swipe-hint{font-size:12px;color:#666;margin:0 0 6px 2px;}
+.imgs{display:flex;flex-wrap:nowrap;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;padding-bottom:4px;}
+.imgs img{flex:0 0 85%;width:85%;max-width:85%;height:auto;max-height:none;object-fit:contain;scroll-snap-align:start;border:1px solid #9c9c9c;border-radius:10px;background:#fff;box-shadow:0 3px 10px rgba(0,0,0,.18);}
+.imgs::after{content:'';flex:0 0 15%;}
+
+
+.no-photos{background:#f6f6f6;}
+.no-photos .swipe-hint{margin:0;}
+.one-photo .imgs::after{content:'';flex:0 0 0;}
 </style></head><body>
 <h1>HS-2026-02-03-K7Q2 — Paint Scope</h1><p class='meta'>Public-safe export. Address/client identifiers removed. Paint only. Dimensions rounded down to nearest foot. Room photos only.</p>
 <div class='section'><h2>Project Overview</h2>
@@ -35,75 +44,105 @@ h2{font-size:16px;margin:0;}
 <div class='section'>
 <h2>Foyer — 11×8 ft; H 13 ft</h2>
 <div class='meta'>Walls • Ceiling • Trim • Doors (2)</div>
-<div class='imgs'><img src='../assets/01_Foyer_01.jpg' loading='lazy' /><img src='../assets/01_Foyer_02.jpg' loading='lazy' /><img src='../assets/01_Foyer_03.jpg' loading='lazy' /><img src='../assets/01_Foyer_04.jpg' loading='lazy' /><img src='../assets/01_Foyer_05.jpg' loading='lazy' /><img src='../assets/01_Foyer_06.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/01_Foyer_01.jpg' loading='lazy' /><img src='../assets/01_Foyer_02.jpg' loading='lazy' /><img src='../assets/01_Foyer_03.jpg' loading='lazy' /><img src='../assets/01_Foyer_04.jpg' loading='lazy' /><img src='../assets/01_Foyer_05.jpg' loading='lazy' /><img src='../assets/01_Foyer_06.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Stairwell — 16×4 ft; H 16 ft</h2>
 <div class='meta'>Walls • Ceiling • Trim</div>
-<div class='imgs'><img src='../assets/02_Stairwell_01.jpg' loading='lazy' /><img src='../assets/02_Stairwell_02.jpg' loading='lazy' /><img src='../assets/02_Stairwell_03.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/02_Stairwell_01.jpg' loading='lazy' /><img src='../assets/02_Stairwell_02.jpg' loading='lazy' /><img src='../assets/02_Stairwell_03.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Living Room — 17×15 ft; H 10 ft</h2>
 <div class='meta'>Repair • Walls • Ceiling • Trim</div>
 <div class='meta'>Picture rail trim: remove and dispose.</div>
-<div class='imgs'><img src='../assets/03_Living_Room_01.jpg' loading='lazy' /><img src='../assets/03_Living_Room_02.jpg' loading='lazy' /><img src='../assets/03_Living_Room_03.jpg' loading='lazy' /><img src='../assets/03_Living_Room_04.jpg' loading='lazy' /><img src='../assets/03_Living_Room_05.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/03_Living_Room_01.jpg' loading='lazy' /><img src='../assets/03_Living_Room_02.jpg' loading='lazy' /><img src='../assets/03_Living_Room_03.jpg' loading='lazy' /><img src='../assets/03_Living_Room_04.jpg' loading='lazy' /><img src='../assets/03_Living_Room_05.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Kitchen — 11×21 ft; H 8 ft</h2>
 <div class='meta'>Walls • Ceiling • Trim</div>
-<div class='imgs'><img src='../assets/04_Kitchen_01.jpg' loading='lazy' /><img src='../assets/04_Kitchen_02.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/04_Kitchen_01.jpg' loading='lazy' /><img src='../assets/04_Kitchen_02.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Dining Room — 14×19 ft; H 10 ft</h2>
 <div class='meta'>Walls • Ceiling • Trim</div>
-<div class='imgs'><img src='../assets/05_Dining_Room_01.jpg' loading='lazy' /><img src='../assets/05_Dining_Room_02.jpg' loading='lazy' /><img src='../assets/05_Dining_Room_03.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/05_Dining_Room_01.jpg' loading='lazy' /><img src='../assets/05_Dining_Room_02.jpg' loading='lazy' /><img src='../assets/05_Dining_Room_03.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>1st Floor Hallway — 25×3 ft; H 8 ft</h2>
 <div class='meta'>Walls • Ceiling • Trim</div>
-<div class='imgs'><img src='../assets/06_1st_Floor_Hallway_01.jpg' loading='lazy' /><img src='../assets/06_1st_Floor_Hallway_02.jpg' loading='lazy' /><img src='../assets/06_1st_Floor_Hallway_03.jpg' loading='lazy' /><img src='../assets/06_1st_Floor_Hallway_04.jpg' loading='lazy' /><img src='../assets/06_1st_Floor_Hallway_05.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/06_1st_Floor_Hallway_01.jpg' loading='lazy' /><img src='../assets/06_1st_Floor_Hallway_02.jpg' loading='lazy' /><img src='../assets/06_1st_Floor_Hallway_03.jpg' loading='lazy' /><img src='../assets/06_1st_Floor_Hallway_04.jpg' loading='lazy' /><img src='../assets/06_1st_Floor_Hallway_05.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Bedroom 1 — 16×15 ft; H 8 ft</h2>
 <div class='meta'>Repair • Walls • Ceiling • Trim • Doors (1)</div>
-<div class='imgs'><img src='../assets/07_Bedroom_1_01.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_02.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_03.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_04.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_05.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_06.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_07.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_08.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_09.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/07_Bedroom_1_01.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_02.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_03.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_04.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_05.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_06.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_07.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_08.jpg' loading='lazy' /><img src='../assets/07_Bedroom_1_09.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Bedroom 2 — 11×17 ft; H 8 ft</h2>
 <div class='meta'>Walls • Ceiling • Trim • Doors (1)</div>
-<div class='imgs'><img src='../assets/08_Bedroom_2_01.jpg' loading='lazy' /><img src='../assets/08_Bedroom_2_02.jpg' loading='lazy' /><img src='../assets/08_Bedroom_2_03.jpg' loading='lazy' /><img src='../assets/08_Bedroom_2_04.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/08_Bedroom_2_01.jpg' loading='lazy' /><img src='../assets/08_Bedroom_2_02.jpg' loading='lazy' /><img src='../assets/08_Bedroom_2_03.jpg' loading='lazy' /><img src='../assets/08_Bedroom_2_04.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Main Bedroom — 14×18 ft; H 8 ft</h2>
 <div class='meta'>Walls • Ceiling • Trim • Doors (3)</div>
 <div class='meta'>Dark to light color change may require 3 coats.</div>
-<div class='imgs'><img src='../assets/09_Main_Bedroom_01.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_02.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_03.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_04.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_05.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_06.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/09_Main_Bedroom_01.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_02.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_03.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_04.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_05.jpg' loading='lazy' /><img src='../assets/09_Main_Bedroom_06.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Main Bathroom — 14×8 ft; H 8 ft</h2>
 <div class='meta'>Repair • Walls • Ceiling • Trim</div>
 <div class='meta'>Dark to light color change may require 3 coats.</div>
 <div class='meta'>Picture rail trim: remove and dispose.</div>
-<div class='imgs'><img src='../assets/10_Main_Bathroom_01.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_02.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_03.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_04.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_05.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_06.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_07.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_08.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_09.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_10.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/10_Main_Bathroom_01.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_02.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_03.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_04.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_05.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_06.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_07.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_08.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_09.jpg' loading='lazy' /><img src='../assets/10_Main_Bathroom_10.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Laundry Room — 6×5 ft</h2>
 <div class='meta'>Walls • Ceiling • Doors (1)</div>
-<div class='imgs'><img src='../assets/11_Laundry_Room_01.jpg' loading='lazy' /><img src='../assets/11_Laundry_Room_02.jpg' loading='lazy' /><img src='../assets/11_Laundry_Room_03.jpg' loading='lazy' /><img src='../assets/11_Laundry_Room_04.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/11_Laundry_Room_01.jpg' loading='lazy' /><img src='../assets/11_Laundry_Room_02.jpg' loading='lazy' /><img src='../assets/11_Laundry_Room_03.jpg' loading='lazy' /><img src='../assets/11_Laundry_Room_04.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Bathroom 1 — 6×8 ft; H 8 ft</h2>
 <div class='meta'>Walls • Ceiling • Trim • Doors (1)</div>
-<div class='imgs'><img src='../assets/12_Bathroom_1_01.jpg' loading='lazy' /><img src='../assets/12_Bathroom_1_02.jpg' loading='lazy' /><img src='../assets/12_Bathroom_1_03.jpg' loading='lazy' /><img src='../assets/12_Bathroom_1_04.jpg' loading='lazy' /><img src='../assets/12_Bathroom_1_05.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/12_Bathroom_1_01.jpg' loading='lazy' /><img src='../assets/12_Bathroom_1_02.jpg' loading='lazy' /><img src='../assets/12_Bathroom_1_03.jpg' loading='lazy' /><img src='../assets/12_Bathroom_1_04.jpg' loading='lazy' /><img src='../assets/12_Bathroom_1_05.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Basement Main Room — 15×29 ft; H 8 ft</h2>
 <div class='meta'>Walls • Ceiling</div>
-<div class='imgs'><img src='../assets/17_Basement_Main_Room_01.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_02.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_03.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_04.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_05.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_06.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/17_Basement_Main_Room_01.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_02.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_03.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_04.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_05.jpg' loading='lazy' /><img src='../assets/17_Basement_Main_Room_06.jpg' loading='lazy' /></div></div>
 </div>
 <div class='section'>
 <h2>Bathroom 2 — 7×11 ft; H 8 ft</h2>
 <div class='meta'>Repair • Walls • Ceiling • Trim</div>
-<div class='imgs'><img src='../assets/19_Bathroom_2_01.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_02.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_03.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_04.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_05.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_06.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_07.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_08.jpg' loading='lazy' /></div>
+<div class='gallery'><div class='swipe-hint'>Swipe left/right to view photos (more →)</div><div class='imgs'><img src='../assets/19_Bathroom_2_01.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_02.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_03.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_04.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_05.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_06.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_07.jpg' loading='lazy' /><img src='../assets/19_Bathroom_2_08.jpg' loading='lazy' /></div></div>
 </div>
+<script>
+(() => {
+  const galleries = document.querySelectorAll('.gallery');
+  galleries.forEach(g => {
+    const hint = g.querySelector('.swipe-hint');
+    const imgs = g.querySelectorAll('.imgs img');
+    const strip = g.querySelector('.imgs');
+
+    if (!imgs || imgs.length === 0) {
+      if (hint) hint.textContent = 'No photos available';
+      if (strip) strip.style.display = 'none';
+      g.classList.add('no-photos');
+      return;
+    }
+
+    if (imgs.length === 1) {
+      if (hint) hint.textContent = 'Photo';
+      if (strip) {
+        strip.style.overflowX = 'hidden';
+        strip.style.scrollSnapType = 'none';
+      }
+      g.classList.add('one-photo');
+      return;
+    }
+
+    // 2+ photos
+    if (hint) hint.textContent = 'Swipe left/right to view photos (more →)';
+  });
+})();
+</script>
 </body></html>
