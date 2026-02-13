@@ -2,6 +2,7 @@
 
 ## Output format
 - **Headlines only** in chat when discussing upcoming meals (short, scannable lines).
+- Default plan = **5 dinners/week** (one per weekday), then tighten based on availability/activities.
 - When a meal needs extra detail (pull from freezer / quick prep), provide **only the minimum prep bullets**.
 
 ## Day-of-week question logic ("what's for dinner <day>?")
@@ -17,6 +18,7 @@
 - Preferred repeat-buys live in `PREFERRED-ITEMS.md`.
 - **Full-fat dairy whenever possible.**
 - Don’t “substitute” preferences without asking (especially chips/crackers flavors).
+- If a preferred item is out of stock and substitutions might be acceptable, ask in Groceries chat: **"it’s out of stock; here are options A/B/C—should I add one?"**
 - Exception: **sour cream** — any full-fat sour cream is fine; aim for ~16 oz tub; avoid monster tubs.
 - Exception: **Mexican shredded cheese** — 32 oz family pack preferred; if out of stock, smaller sizes are acceptable.
 - Exception: **Uncrustables** — must be grape; pack size flexible.
