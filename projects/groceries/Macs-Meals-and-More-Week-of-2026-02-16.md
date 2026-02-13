@@ -5,9 +5,9 @@ Goal: one weekly plan that includes **dinners + breakfast/lunch restocks + snack
 Principles: gluten-free by default; full-fat dairy when possible; kids low-spice, adults like spice → **configurable heat**; default **5 dinners/week**; headlines-only in chat.
 
 ## Part 1 — Meals (Dinner Plan — headlines)
-- Mon: Steak night — sweet potatoes, asparagus *(swapable: green beans)*
+- Mon: Sheet-pan sausage + peppers — potatoes *(quick/easy; cheer night)*
 - Tue: Taco / enchilada night (ground beef) — lettuce, sour cream, Mexican cheese *(spice optional)*
-- Wed: FLEX / leftovers
+- Wed: Steak night — sweet potatoes, asparagus *(swapable: green beans)*
 - Thu: Lemon-garlic chicken thighs — rice, broccoli
 - Fri: Breakfast for dinner — hash browns, eggs, fruit
 
