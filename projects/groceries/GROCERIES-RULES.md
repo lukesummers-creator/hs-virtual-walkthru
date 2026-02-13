@@ -15,4 +15,9 @@
 
 ## Preferred items
 - Preferred repeat-buys live in `PREFERRED-ITEMS.md`.
+- **Full-fat dairy whenever possible.**
 - Don’t “substitute” preferences without asking (especially chips/crackers flavors).
+- Exception: **sour cream** — any full-fat sour cream is fine; aim for ~16 oz tub; avoid monster tubs.
+- Exception: **Mexican shredded cheese** — 32 oz family pack preferred; if out of stock, smaller sizes are acceptable.
+- Exception: **Uncrustables** — must be grape; pack size flexible.
+- Snyder’s GF pretzels/pretzel sticks: **exact match only** (skip if not available).
