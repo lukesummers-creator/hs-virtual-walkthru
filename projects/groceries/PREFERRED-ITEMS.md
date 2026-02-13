@@ -35,4 +35,3 @@
 - The Good Crisp Company (Sour Cream & Onion)
 - Late July nacho chips — preferred; if out of stock, **skip** (don’t sub sea salt)
 - Milton’s GF crackers (Salt & Pepper / Zesty Ranch)
-- Snyder’s GF pretzels — Honey Mustard (Ashley)
