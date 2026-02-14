@@ -10,14 +10,18 @@
 ---
 
 ## 0) Authority + shipping
-- **LOCKED:** Luke is Accountable (final authority) for all HOMEstretch Proposals artifacts. Mac drafts/implements but does not “ship” changes to official docs unless Luke explicitly says **“ship it.”**
-  - Source: `projects/GUARDRAILS.md`
+- **LOCKED:** Luke is Accountable (final authority) for the proposal system.
+- **LOCKED:** Mac must act with bias-for-action:
+  - May proactively update **job artifacts** (e.g., `PROPOSAL-PACK.md`, `PRICING-JOURNAL.md`) and **process artifacts** (PROCESS/templates/libraries) without waiting for explicit permission.
+  - Must clearly label assumptions and learning moments in the artifacts.
+- **LOCKED:** Anything that constitutes an **external ship** (client send / official deliverable publish) remains Luke’s call.
+  - Source: Luke clarification (2026-02-14) + `projects/GUARDRAILS.md`
 
 ---
 
 ## 1) Workflow milestones + context isolation
-- **LOCKED:** Use **The Pit** when we’re doing side-work that risks derailing the active quote flow; keep iteration local-only until accepted, then merge back as one clean change-set.
-  - Source: `PROCESS.md` (The Pit)
+- **LOCKED:** Use **The Pit** when we’re doing side-work that risks derailing the active quote flow or when there’s **no clear home** for the work; keep iteration local-only until accepted, then merge back as one clean change-set.
+  - Source: `PROCESS.md` (The Pit) + Luke review
 - **SOFT:** Use milestone phases (Intake → Service Pass → Publishing → Ship) to communicate percent-done + what kind of work is allowed.
   - Source: `PROCESS.md` (Milestones)
 
@@ -39,19 +43,27 @@
 ---
 
 ## 4) Proposal Pack output rules (format + ordering)
-- **LOCKED:** Pricing points in Proposal Pack must show **ONLY** these 4 lines, in this order (no extras):
+- **LOCKED:** Paint Pricing points in Proposal Pack must show **ONLY** these 4 lines, in this order (no extras):
   1) Customer Price
   2) Materials Cost
   3) Labor Cost
   4) Customer Price $/sf @ WorkedFloorSF
+- **LOCKED:** Handyman Pricing points in Proposal Pack must show **ONLY** these 4 lines, in this order (no extras):
+  1) Customer Price
+  2) Materials Allowance
+  3) Labor Cost
+  4) Estimated hours to complete
+  - Source: Luke review
 - **LOCKED:** All deeper math/formulas/assumptions live in the **Pricing Journal**, not the Proposal Pack.
   - Source: `PROCESS.md` (Intake process / per pricing point format)
 
 ---
 
 ## 5) PandaDoc copy/paste formatting
-- **LOCKED:** PandaDoc scope sections must be **plain text only** (no bold/italics) for copy/paste blocks.
-  - Source: `PROCESS.md` (PandaDoc-ready scope sections)
+- **LOCKED:** PandaDoc scope sections must be **plain text only** (no bold/italics/bullets). Keep rooms listed in **consistent walk-thru order** across all services for rooms worked.
+  - Source: `PROCESS.md` (PandaDoc-ready scope sections) + Luke review
+- **LOCKED:** PandaDoc Paint scope list uses **one blank line** between rooms (readability).
+  - Source: Luke review
 
 ---
 
@@ -69,16 +81,18 @@
 ---
 
 ## 8) Handyman capture glitch
-- **LOCKED:** When `handyman_required=true` but dropdown tasks are missing (FastField glitch), treat handyman notes as authoritative; include dropdown tasks when present.
+- **LOCKED:** When `handyman_required=true` but dropdown tasks are missing (FastField glitch) or dropdown task clearly mismatches the notes (e.g. install ceiling fan task selected and notes say "NOT CEILING FAN - repair cabinet"), treat handyman notes as authoritative; include dropdown tasks when present.
 - **LOCKED:** One task per line in downstream handyman scope lists.
-  - Source: `PROCESS.md` (Handyman capture nuance)
+  - Source: `PROCESS.md` (Handyman capture nuance), AND luke added feedback
 
 ---
 
 ## 9) Public-safe / PII + web standards
 - **LOCKED:** For public-safe outputs, remove PII; use **Job Code** naming (no address/client identifiers).
-- **LOCKED:** Never run wipe/clean operations in workbench directories; previews under `tmp/`.
+- **LOCKED:** Never run wipe/clean operations in the workbench directories; previews under `tmp/`.
   - Source: `PROCESS.md` (Web page standards)
+- **LOCKED:** If we change design/UX rules for one web output (e.g., photo sizing on a handyman walkthru), verify whether the change should be propagated to **all** web output design rules for consistency.
+  - Source: Luke review
 
 ---
 
@@ -103,12 +117,20 @@
   1) backcheck active job artifacts,
   2) re-copy updated drafts to Drive `Workbench Drafts/`,
   3) report what changed.
+  4) confirm whether backcheck needs to back any further 
   - Source: `projects/GUARDRAILS.md` + `PROCESS.md`
+
 
 Helper: `python3 projects/homestretch-proposals/tools/rule_lock_backcheck.py <job> --drive <drive_workbench_drafts_path>`
 
 ---
 
 ## Open questions (TBD)
-- TBD: What is the authoritative definition of “Job Code” format (and where is it stored)?
-- TBD: Any hard red rules around option sets / alternates in PandaDoc beyond MSG1/MSG2/MSG3 guidance?
+- **RESOLVED:** Job Code format (and storage)
+  - Format: `YYYYMM-<RAND4>` (e.g., `202602-X3V1`).
+  - Storage (TBD exact file): likely a post-win job manifest / SOW index that contains job code + links to walkthrus + scope artifacts.
+  - Source: Luke review
+- **RESOLVED (for now):** PandaDoc email messages
+  - Default = MSG 2.
+  - We don’t need 3 totally different messages; we need a default + small **modifiers** (notable, fully managed, starting point, options) that slot into the default.
+  - Source: Luke review
