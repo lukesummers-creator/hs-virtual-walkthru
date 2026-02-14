@@ -199,15 +199,16 @@ export default async function handler(event) {
     if (!macBrainDir) return;
 
     const prompt = extractInitialPrompt(event);
-    if (!prompt) return;
 
     const coreBullets = readCoreRulesBullets(macBrainDir);
-    const vaultIndexMatches = readVaultIndexMatches(macBrainDir, prompt);
-    const recallHits = runRecall(macBrainDir, prompt);
+    const vaultIndexMatches = prompt ? readVaultIndexMatches(macBrainDir, prompt) : [];
+    const recallHits = prompt ? runRecall(macBrainDir, prompt) : [];
 
-    if (!coreBullets.length && !vaultIndexMatches.length && !recallHits.length) return;
+    // If no prompt exists yet, still inject baseline continuity anchors so new sessions feel consistent.
+    if (!prompt && !coreBullets.length) return;
+    if (prompt && !coreBullets.length && !vaultIndexMatches.length && !recallHits.length) return;
 
-    const block = buildContextBlock(prompt, coreBullets, vaultIndexMatches, recallHits);
+    const block = buildContextBlock(prompt || 'session start', coreBullets, vaultIndexMatches, recallHits);
 
     if (!Array.isArray(event.messages)) event.messages = [];
     // inject as system message
