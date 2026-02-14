@@ -53,6 +53,7 @@
   2) Materials Allowance
   3) Labor Cost
   4) Estimated hours to complete
+  - Note: “Materials Allowance” here is an **internal courtesy client spend estimate** (aggregate $X); it does **not** drive our customer price unless we explicitly supply items.
   - Source: Luke review
 - **LOCKED:** All deeper math/formulas/assumptions live in the **Pricing Journal**, not the Proposal Pack.
   - Source: `PROCESS.md` (Intake process / per pricing point format)

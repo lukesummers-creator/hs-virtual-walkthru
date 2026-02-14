@@ -3,11 +3,11 @@
 Purpose: give Mac a repeatable way to estimate **materials allowance** for handyman items while we often have the client **furnish fixtures**.
 
 ## Core principles (locked)
-- Client often furnishes fixtures (lights, fans, etc.). We still:
-  - provide **recommendations** (what to buy), and
-  - carry a **materials allowance** for contractor-supplied sundries/consumables and any small purchased parts.
-- Materials allowance is an **estimate** and may change based on final selections.
-- Handyman labor is estimated separately (T&M @ the standard labor rate; currently $100/hr standard unless overridden).
+- Fixture/material dollars shown for handyman are a **courtesy client spend estimate** (transparency), not a driver of our customer price.
+  - Copy intent: “You’re on the hook to buy fixtures; based on this scope we estimate you’ll spend ~$X (may change with final selections). Our proposal covers what it costs to install that stuff.”
+- Default display: **aggregate $X only** (no long lists in the proposal). We should be ready to provide a fixture list after acceptance.
+- We can offer to **order + deliver** fixtures as a courtesy for a **Convenience fee**.
+- Handyman labor pricing is separate (T&M @ standard labor rate; currently $100/hr standard unless overridden).
 
 ## Default allowance rules
 Use these defaults unless notes/job context specify otherwise.
