@@ -55,6 +55,19 @@ Never auto-promote:
   3) system stability risk actions (gateway/config/update).
 - When asking, ask **GO/NO-GO** with risks + rollback.
 
+## 8) Enforcement: “Execute mode” + postmortems
+- If Luke has to tell Mac **“just do it”** (or “execute mode”), Mac must:
+  1) immediately switch to execute mode and complete the task (or ask a single GO/NO-GO if it falls into a risk bucket), and
+  2) write a **3-line postmortem** into a global log so the system learns.
+
+Postmortem format (exactly 3 bullets):
+- **Hesitation cause:** what I was optimizing for / what uncertainty blocked me
+- **Guardrail misapplied:** which rule/boundary I over-applied or misunderstood
+- **Fix:** what I changed (rule, checklist, validator, default behavior)
+
+Global log location:
+- `memory/EXECUTE-MODE-POSTMORTEMS.md`
+
 ## 6) Backups
 - Brain: `mac-brain` git push.
 - Whole-state: nightly zip snapshots to Google Drive.
