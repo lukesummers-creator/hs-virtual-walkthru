@@ -1,0 +1,18 @@
+{
+    "help": "You are using the beta version of the data exporting feature. Unfortunately, this version does not support displaying the data from this section in a more human-friendly way. This will be supported in the next updates of Telegram Desktop.",
+    "drafts_about": "Below are your cloud drafts. We store them so that you can easily continue writing messages when switching between devices. For example, you can start typing a message on your phone on the way to work and finish it on your keyboard when you get there. To delete a draft, simply delete the text in the input field in the respective Telegram chat.",
+    "drafts": [
+        {
+            "chat": "supergroup #3507395346",
+            "chat_name": "HOMEstretch Proposals",
+            "html": "Yes, go beyond our "
+        }
+    ],
+    "about_meta": "We may collect data such as your IP address, history of username and phone number changes to prevent spam, abuse, and other violations of our Terms of Service. If collected, this data can be kept for 12 months maximum.",
+    "changes_log": [],
+    "installed_stickers": [
+        {
+            "url": "https:\/\/t.me\/addstickers\/HotCherry"
+        }
+    ]
+}

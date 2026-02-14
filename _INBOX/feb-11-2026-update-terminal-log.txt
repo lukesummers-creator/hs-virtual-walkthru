@@ -1,0 +1,726 @@
+lrs@Lukes-MacBook-Pro ~ % openclaw health
+
+🦞 OpenClaw 2026.2.9 (33c75cb) — Less middlemen, more messages.
+
+│
+◇  
+[openclaw] Failed to start CLI: Error: gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/lrs/.openclaw/openclaw.json
+Bind: loopback
+    at Object.onClose (file:///Users/lrs/.npm-global/lib/node_modules/openclaw/dist/call--K7CqSE5.js:265:10)
+    at WebSocket.<anonymous> (file:///Users/lrs/.npm-global/lib/node_modules/openclaw/dist/client-Dzx1FlLz.js:1606:23)
+    at WebSocket.emit (node:events:508:28)
+    at WebSocket.emitClose (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:263:12)
+    at emitErrorAndClose (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:1047:13)
+    at ClientRequest.<anonymous> (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:886:5)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at Socket.socketErrorListener (node:_http_client:575:5)
+    at Socket.emit (node:events:508:28)
+lrs@Lukes-MacBook-Pro ~ % openclaw health
+/Users/lrs/.npm-global/bin/clawdbot status --all
+
+🦞 OpenClaw 2026.2.9 (33c75cb) — Because Siri wasn't answering at 3AM.
+
+│
+◇  
+[openclaw] Failed to start CLI: Error: gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/lrs/.openclaw/openclaw.json
+Bind: loopback
+    at Object.onClose (file:///Users/lrs/.npm-global/lib/node_modules/openclaw/dist/call--K7CqSE5.js:265:10)
+    at WebSocket.<anonymous> (file:///Users/lrs/.npm-global/lib/node_modules/openclaw/dist/client-Dzx1FlLz.js:1606:23)
+    at WebSocket.emit (node:events:508:28)
+    at WebSocket.emitClose (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:263:12)
+    at emitErrorAndClose (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:1047:13)
+    at ClientRequest.<anonymous> (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:886:5)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at Socket.socketErrorListener (node:_http_client:575:5)
+    at Socket.emit (node:events:508:28)
+
+🦞 Clawdbot 2026.1.24-3 (885167d) — WhatsApp Business, but without the business.
+
+│
+Clawdbot status --all
+
+Overview
+┌─────────────────┬───────────────────────────────────────────────────────────┐
+│ Item            │ Value                                                     │
+├─────────────────┼───────────────────────────────────────────────────────────┤
+│ Version         │ 2026.1.24-3                                               │
+│ OS              │ macos 15.5 (arm64)                                        │
+│ Node            │ 24.13.0                                                   │
+│ Config          │ ~/.clawdbot/clawdbot.json                                 │
+│ Dashboard       │ http://127.0.0.1:18789/                                   │
+│ Tailscale       │ off · Running · lukes-macbook-pro.tail2ca537.ts.net       │
+│ Channel         │ stable (default)                                          │
+│ Update          │ pnpm · npm latest 2026.1.24-3                             │
+│ Gateway         │ local · ws://127.0.0.1:18789 (local loopback) ·           │
+│                 │ unreachable (connect failed: connect ECONNREFUSED 127.0.  │
+│                 │ 0.1:18789)                                                │
+│ Security        │ Run: clawdbot security audit --deep                       │
+│ Gateway self    │ unknown                                                   │
+│ Gateway service │ LaunchAgent installed · not loaded · unknown              │
+│ Node service    │ LaunchAgent not installed                                 │
+│ Agents          │ 1 total · 1 bootstrapping · 1 active · 8 sessions         │
+└─────────────────┴───────────────────────────────────────────────────────────┘
+
+Channels
+┌──────────┬─────────┬────────┬───────────────────────────────────────────────┐
+│ Channel  │ Enabled │ State  │ Detail                                        │
+├──────────┼─────────┼────────┼───────────────────────────────────────────────┤
+│ Telegram │ ON      │ OK     │ token config (sha256:a17eabc7 · len 46) ·     │
+│          │         │        │ accounts 1/1                                  │
+│ WhatsApp │ ON      │ OK     │ linked · +16307684302 · auth 5m ago ·         │
+│          │         │        │ accounts 1                                    │
+└──────────┴─────────┴────────┴───────────────────────────────────────────────┘
+
+Telegram accounts
+┌──────────┬──────────┬───────────────────────────────────────────────────────┐
+│ Account  │ Status   │ Notes                                                 │
+├──────────┼──────────┼───────────────────────────────────────────────────────┤
+│ default  │ OK       │ token:config                                          │
+└──────────┴──────────┴───────────────────────────────────────────────────────┘
+
+WhatsApp accounts
+┌──────────┬──────────┬───────────────────────────────────────────────────────┐
+│ Account  │ Status   │ Notes                                                 │
+├──────────┼──────────┼───────────────────────────────────────────────────────┤
+│ default  │ OK       │ dm:allowlist · allow:+16307684302                     │
+└──────────┴──────────┴───────────────────────────────────────────────────────┘
+
+Agents
+┌────────────┬───────────┬──────────┬──────────┬──────────────────────────────┐
+│ Agent      │ Bootstrap │ Sessions │ Active   │ Store                        │
+├────────────┼───────────┼──────────┼──────────┼──────────────────────────────┤
+│ main       │ PENDING   │        8 │ 4m ago   │ ~/.clawdbot/agents/main/     │
+│            │           │          │          │ sessions/sessions.json       │
+└────────────┴───────────┴──────────┴──────────┴──────────────────────────────┘
+
+Diagnosis (read-only)
+
+Gateway connection details:
+  Gateway target: ws://127.0.0.1:18789
+  Source: local loopback
+  Config: /Users/lrs/.clawdbot/clawdbot.json
+  Bind: loopback
+
+✓ Config: /Users/lrs/.clawdbot/clawdbot.json
+✓ Restart sentinel: none
+
+Gateway last log line:
+  at processTicksAndRejections (node:internal/process/task_queues:104:5)
+✓ Port 18789
+✓ Tailscale: off · Running · lukes-macbook-pro.tail2ca537.ts.net
+  ips: 100.64.210.102, fd7a:115c:a1e0::ea01:d28a
+✓ Skills: 10 eligible · 0 missing · /Users/lrs/clawd
+
+Gateway logs (tail, summarized): /Users/lrs/.clawdbot/logs
+  # stderr: /Users/lrs/.clawdbot/logs/gateway.err.log
+      at processTicksAndRejections (node:internal/process/task_queues:104:5)
+  2026-02-10T19:37:36.816Z (node:61426) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+  (Use `node --trace-deprecation ...` to show where the warning was created)
+  2026-02-10T19:37:40.738Z [bonjour] gateway name conflict resolved; newName="Luke's MacBook Pro (Clawdbot) (2)"
+  2026-02-10T19:37:40.749Z [bonjour] gateway hostname conflict resolved; newHostname="Lukes-MacBook-Pro-(2)"
+  2026-02-10T19:37:51.249Z [clawdbot] Unhandled promise rejection: TypeError: fetch failed
+  … 17 lines omitted …
+      at processTicksAndRejections (node:internal/process/task_queues:104:5)
+  2026-02-10T20:46:49.504Z (node:62874) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+  (Use `node --trace-deprecation ...` to show where the warning was created)
+  2026-02-10T20:46:54.084Z [bonjour] gateway name conflict resolved; newName="Luke's MacBook Pro (Clawdbot) (2)"
+  2026-02-10T20:46:54.087Z [bonjour] gateway hostname conflict resolved; newHostname="Lukes-MacBook-Pro-(2)"
+  2026-02-10T22:33:30.599Z [whatsapp] Web connection closed (status 503). Retry 1/12 in 2.23s… (status=503 Service Unavailable Stream Errored (unknown))
+  2026-02-11T01:49:23.988Z [whatsapp] Web connection closed (status 428). Retry 1/12 in 2.34s… (status=428 Precondition Required Connection Terminated)
+  2026-02-11T02:58:39.351Z [whatsapp] Web connection closed (status 428). Retry 1/12 in 2.29s… (status=428 Precondition Required Connection Terminated)
+  2026-02-11T03:20:04.655Z [whatsapp] Web connection closed (status 428). Retry 1/12 in 2.29s… (status=428 Precondition Required Connection Terminated)
+  2026-02-11T16:43:26.747Z [tools] exec failed: bash: --no-onboard: No such file or directory
+  curl: (56) Failure writing output to destination, passed 8302 returned 0
+  Command exited with code 127
+  2026-02-11T16:51:25.107Z [clawdbot] Unhandled promise rejection: AbortError: This operation was aborted
+      at node:internal/deps/undici/undici:16416:13
+      at processTicksAndRejections (node:internal/process/task_queues:104:5)
+  # stdout: /Users/lrs/.clawdbot/logs/gateway.log
+  2026-02-11T15:58:07.294Z [ws] ⇄ res ✓ node.list 58ms conn=7547b741…7882 id=f353db53…7c39
+  2026-02-11T15:59:08.271Z [ws] ⇄ res ✓ node.list 59ms conn=7547b741…7882 id=1ef7a2c2…dc7d
+  2026-02-11T16:00:07.274Z [ws] ⇄ res ✓ node.list 89ms conn=7547b741…7882 id=2b4a7fda…d7cb
+  2026-02-11T16:01:07.439Z [ws] ⇄ res ✓ node.list 64ms conn=7547b741…7882 id=22b2ec81…9131
+  2026-02-11T16:04:07.557Z [ws] ⇄ res ✓ node.list 66ms conn=7547b741…7882 id=a2e2249c…b1d5
+  2026-02-11T16:05:07.374Z [ws] ⇄ res ✓ node.list 77ms conn=7547b741…7882 id=8865660d…d86d
+  … 18 lines omitted …
+  2026-02-11T16:40:07.277Z [ws] ⇄ res ✓ node.list 59ms conn=7547b741…7882 id=79c45725…7c6c
+  2026-02-11T16:41:07.408Z [ws] ⇄ res ✓ node.list 163ms conn=7547b741…7882 id=3180f22d…4bc3
+  2026-02-11T16:41:46.288Z [ws] ⇄ res ✓ chat.history 71ms conn=7547b741…7882 id=f0de3a4d…d296
+  2026-02-11T16:42:38.796Z [ws] ⇄ res ✓ node.list 190ms conn=7547b741…7882 id=047b7354…3eab
+  2026-02-11T16:43:14.339Z [ws] ⇄ res ✓ status 104ms conn=f3e19590…a7bd id=354e52a3…4303
+  2026-02-11T16:44:52.402Z [ws] ⇄ res ✓ channels.status 1363ms conn=c8349aba…d242 id=09e0c55d…cbae
+  2026-02-11T16:44:59.754Z [ws] ⇄ res ✓ channels.status 78ms conn=7547b741…7882 id=2f286f44…df79
+  2026-02-11T16:44:59.824Z [ws] ⇄ res ✓ status 114ms conn=7547b741…7882 id=428218f9…2ef3
+  2026-02-11T16:46:02.224Z [ws] ⇄ res ✓ chat.history 55ms conn=7547b741…7882 id=8df28178…4154
+  2026-02-11T16:48:21.955Z [ws] ⇄ res ✓ chat.history 55ms conn=7547b741…7882 id=95ad07e7…084e
+  2026-02-11T16:49:50.087Z [ws] ⇄ res ✓ chat.history 79ms conn=7547b741…7882 id=5c129463…10d4
+  2026-02-11T16:51:20.781Z [ws] ⇄ res ✓ channels.status 55ms conn=2d966f99…6bce id=1f337cc1…9945
+  2026-02-11T16:51:24.738Z [gateway] signal SIGTERM received
+  2026-02-11T16:51:24.739Z [gateway] received SIGTERM; shutting down
+  2026-02-11T16:51:24.771Z [gmail-watcher] gmail watcher stopped
+! Channel issues skipped (gateway unreachable)
+
+Gateway health:
+  connect failed: connect ECONNREFUSED 127.0.0.1:18789
+
+Pasteable debug report. Auth tokens redacted.
+Troubleshooting: https://docs.clawd.bot/troubleshooting
+
+◇  
+lrs@Lukes-MacBook-Pro ~ % openclaw --version
+2026.2.9
+lrs@Lukes-MacBook-Pro ~ % clawdbot gateway status         
+
+🦞 Clawdbot 2026.1.24-3 (885167d)
+   Pairing codes exist because even bots believe in consent—and good security hygiene.
+
+│
+◇  
+Service: LaunchAgent (not loaded)
+File logs: /tmp/clawdbot/clawdbot-2026-02-11.log
+Command: /opt/homebrew/bin/node /Users/lrs/.npm-global/lib/node_modules/clawdbot/dist/entry.js gateway --port 18789
+Service file: ~/Library/LaunchAgents/com.clawdbot.gateway.plist
+Service env: CLAWDBOT_GATEWAY_PORT=18789
+
+Config (cli): ~/.clawdbot/clawdbot.json
+Config (service): ~/.clawdbot/clawdbot.json
+
+Gateway: bind=loopback (127.0.0.1), port=18789 (service args)
+Probe target: ws://127.0.0.1:18789
+Dashboard: http://127.0.0.1:18789/
+Probe note: Loopback-only gateway; only local clients can connect.
+
+Runtime: unknown (Bad request.
+Could not find service "com.clawdbot.gateway" in domain for user gui: 501)
+RPC probe: failed
+RPC target: ws://127.0.0.1:18789
+  gateway closed (1006 abnormal closure (no close frame)): no close reason
+  Gateway target: ws://127.0.0.1:18789
+  Source: cli --url
+  Config: /Users/lrs/.clawdbot/clawdbot.json
+
+Service unit not found.
+Service not installed. Run: clawdbot gateway install
+File logs: /tmp/clawdbot/clawdbot-2026-02-11.log
+Troubles: run clawdbot status
+Troubleshooting: https://docs.clawd.bot/troubleshooting
+lrs@Lukes-MacBook-Pro ~ % openclaw gateway restart
+
+🦞 OpenClaw 2026.2.9 (33c75cb)
+   If you're lost, run doctor; if you're brave, run prod; if you're wise, run tests.
+
+Gateway service not loaded.
+Start with: openclaw gateway install
+Start with: openclaw gateway
+Start with: launchctl bootstrap gui/$UID ~/Library/LaunchAgents/ai.openclaw.gateway.plist
+lrs@Lukes-MacBook-Pro ~ % export PATH="/Users/lrs/.npm-global/bin:$PATH"
+openclaw gateway install
+openclaw gateway restart
+
+🦞 OpenClaw 2026.2.9 (33c75cb) — Think different. Actually think.
+
+
+Installed LaunchAgent: /Users/lrs/Library/LaunchAgents/ai.openclaw.gateway.plist
+Logs: /Users/lrs/.openclaw/logs/gateway.log
+
+🦞 OpenClaw 2026.2.9 (33c75cb) — Because Siri wasn't answering at 3AM.
+
+Restarted LaunchAgent: gui/501/ai.openclaw.gateway
+lrs@Lukes-MacBook-Pro ~ % openclaw health                               
+
+🦞 OpenClaw 2026.2.9 (33c75cb) — iMessage green bubble energy, but for everyone.
+
+│
+◇  
+[openclaw] Failed to start CLI: Error: gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/lrs/.openclaw/openclaw.json
+Bind: loopback
+    at Object.onClose (file:///Users/lrs/.npm-global/lib/node_modules/openclaw/dist/call--K7CqSE5.js:265:10)
+    at WebSocket.<anonymous> (file:///Users/lrs/.npm-global/lib/node_modules/openclaw/dist/client-Dzx1FlLz.js:1606:23)
+    at WebSocket.emit (node:events:508:28)
+    at WebSocket.emitClose (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:263:12)
+    at emitErrorAndClose (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:1047:13)
+    at ClientRequest.<anonymous> (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:886:5)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at Socket.socketErrorListener (node:_http_client:575:5)
+    at Socket.emit (node:events:508:28)
+lrs@Lukes-MacBook-Pro ~ % openclaw gateway restart
+
+🦞 OpenClaw 2026.2.9 (33c75cb)
+   I can run local, remote, or purely on vibes—results may vary with DNS.
+
+Restarted LaunchAgent: gui/501/ai.openclaw.gateway
+lrs@Lukes-MacBook-Pro ~ % openclaw health         
+
+🦞 OpenClaw 2026.2.9 (33c75cb)
+   If you're lost, run doctor; if you're brave, run prod; if you're wise, run tests.
+
+│
+◇  
+[openclaw] Failed to start CLI: Error: gateway closed (1006 abnormal closure (no close frame)): no close reason
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/lrs/.openclaw/openclaw.json
+Bind: loopback
+    at Object.onClose (file:///Users/lrs/.npm-global/lib/node_modules/openclaw/dist/call--K7CqSE5.js:265:10)
+    at WebSocket.<anonymous> (file:///Users/lrs/.npm-global/lib/node_modules/openclaw/dist/client-Dzx1FlLz.js:1606:23)
+    at WebSocket.emit (node:events:508:28)
+    at WebSocket.emitClose (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:263:12)
+    at emitErrorAndClose (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:1047:13)
+    at ClientRequest.<anonymous> (/Users/lrs/.npm-global/lib/node_modules/openclaw/node_modules/ws/lib/websocket.js:886:5)
+    at ClientRequest.emit (node:events:508:28)
+    at emitErrorEvent (node:_http_client:108:11)
+    at Socket.socketErrorListener (node:_http_client:575:5)
+    at Socket.emit (node:events:508:28)
+lrs@Lukes-MacBook-Pro ~ % export PATH="/Users/lrs/.npm-global/bin:$PATH"
+lrs@Lukes-MacBook-Pro ~ % /Users/lrs/.npm-global/bin/clawdbot gateway start
+
+🦞 Clawdbot 2026.1.24-3 (885167d)
+   Claws out, commit in—let's ship something mildly responsible.
+
+Gateway service not loaded.
+Start with: clawdbot gateway install
+Start with: clawdbot gateway
+Start with: launchctl bootstrap gui/$UID ~/Library/LaunchAgents/com.clawdbot.gateway.plist
+lrs@Lukes-MacBook-Pro ~ % cp ~/.clawdbot/clawdbot.json.bak.20260211-104300 ~/.clawdbot/clawdbot.json
+lrs@Lukes-MacBook-Pro ~ % /Users/lrs/.npm-global/bin/clawdbot gateway restart
+
+🦞 Clawdbot 2026.1.24-3 (885167d)
+   Hot reload for config, cold sweat for deploys.
+
+Gateway service not loaded.
+Start with: clawdbot gateway install
+Start with: clawdbot gateway
+Start with: launchctl bootstrap gui/$UID ~/Library/LaunchAgents/com.clawdbot.gateway.plist
+lrs@Lukes-MacBook-Pro ~ % export PATH="/Users/lrs/.npm-global/bin:$PATH"
+lrs@Lukes-MacBook-Pro ~ % launchctl enable gui/$UID/com.clawdbot.gateway
+lrs@Lukes-MacBook-Pro ~ % launchctl kickstart gui/$UID/com.clawdbot.gateway
+Could not find service "com.clawdbot.gateway" in domain for user gui: 501
+lrs@Lukes-MacBook-Pro ~ % ls ~/Library/LaunchAgents/ | grep -i clawdbot
+com.clawdbot.gateway.plist
+com.clawdbot.gateway.plist.bak.20260125-155224
+lrs@Lukes-MacBook-Pro ~ % ls ~/Library/LaunchAgents/ | grep -i openclaw
+ai.openclaw.gateway.plist
+lrs@Lukes-MacBook-Pro ~ % launchctl enable gui/$UID/ai.openclaw.gateway       
+lrs@Lukes-MacBook-Pro ~ % launchctl kickstart gui/$UID/ai.openclaw.gateway
+lrs@Lukes-MacBook-Pro ~ % openclaw status --all      
+
+🦞 OpenClaw 2026.2.9 (33c75cb)
+   I run on caffeine, JSON5, and the audacity of "it worked on my machine."
+
+│
+OpenClaw status --all
+
+Overview
+┌─────────────────┬───────────────────────────────────────────────────────────┐
+│ Item            │ Value                                                     │
+├─────────────────┼───────────────────────────────────────────────────────────┤
+│ Version         │ 2026.2.9                                                  │
+│ OS              │ macos 15.5 (arm64)                                        │
+│ Node            │ 24.13.0                                                   │
+│ Config          │ ~/.openclaw/openclaw.json                                 │
+│ Dashboard       │ http://127.0.0.1:18789/                                   │
+│ Tailscale       │ off · Running · lukes-macbook-pro.tail2ca537.ts.net       │
+│ Channel         │ stable (default)                                          │
+│ Update          │ pnpm · npm latest 2026.2.9                                │
+│ Gateway         │ local · ws://127.0.0.1:18789 (local loopback) ·           │
+│                 │ unreachable (connect failed: connect ECONNREFUSED 127.0.  │
+│                 │ 0.1:18789)                                                │
+│ Security        │ Run: openclaw security audit --deep                       │
+│ Gateway self    │ unknown                                                   │
+│ Gateway service │ LaunchAgent installed · loaded · stopped                  │
+│ Node service    │ LaunchAgent not installed                                 │
+│ Agents          │ 1 total · 1 bootstrapping · 0 active · 8 sessions         │
+└─────────────────┴───────────────────────────────────────────────────────────┘
+
+Channels
+┌──────────┬─────────┬────────┬───────────────────────────────────────────────┐
+│ Channel  │ Enabled │ State  │ Detail                                        │
+├──────────┼─────────┼────────┼───────────────────────────────────────────────┤
+│ Telegram │ ON      │ OK     │ token config (sha256:a17eabc7 · len 46) ·     │
+│          │         │        │ accounts 1/1                                  │
+│ WhatsApp │ ON      │ OK     │ linked · +16307684302 · auth 7h ago ·         │
+│          │         │        │ accounts 1                                    │
+└──────────┴─────────┴────────┴───────────────────────────────────────────────┘
+
+Telegram accounts
+┌──────────┬──────────┬───────────────────────────────────────────────────────┐
+│ Account  │ Status   │ Notes                                                 │
+├──────────┼──────────┼───────────────────────────────────────────────────────┤
+│ default  │ OK       │ token:config                                          │
+└──────────┴──────────┴───────────────────────────────────────────────────────┘
+
+WhatsApp accounts
+┌──────────┬──────────┬───────────────────────────────────────────────────────┐
+│ Account  │ Status   │ Notes                                                 │
+├──────────┼──────────┼───────────────────────────────────────────────────────┤
+│ default  │ OK       │ dm:allowlist · allow:+16307684302                     │
+└──────────┴──────────┴───────────────────────────────────────────────────────┘
+
+Agents
+┌────────────┬───────────┬──────────┬──────────┬──────────────────────────────┐
+│ Agent      │ Bootstrap │ Sessions │ Active   │ Store                        │
+├────────────┼───────────┼──────────┼──────────┼──────────────────────────────┤
+│ main       │ PENDING   │        8 │ 7h ago   │ ~/.openclaw/agents/main/     │
+│            │           │          │          │ sessions/sessions.json       │
+└────────────┴───────────┴──────────┴──────────┴──────────────────────────────┘
+
+Diagnosis (read-only)
+
+Gateway connection details:
+  Gateway target: ws://127.0.0.1:18789
+  Source: local loopback
+  Config: /Users/lrs/.openclaw/openclaw.json
+  Bind: loopback
+
+✓ Config: /Users/lrs/.openclaw/openclaw.json
+✓ Restart sentinel: none
+
+Gateway last log line:
+  Set gateway.auth.token (or OPENCLAW_GATEWAY_TOKEN), or pass --token.
+✓ Port 18789
+✓ Tailscale: off · Running · lukes-macbook-pro.tail2ca537.ts.net
+  ips: 100.64.210.102, fd7a:115c:a1e0::ea01:d28a
+✓ Skills: 7 eligible · 0 missing · /Users/lrs/clawd
+
+Gateway logs (tail, summarized): /Users/lrs/.openclaw/logs
+  # stderr: /Users/lrs/.openclaw/logs/gateway.err.log
+  (Use `node --trace-deprecation ...` to show where the warning was created)
+  2026-02-11T23:22:19.836Z Gateway auth is set to token, but no token is configured.
+  Set gateway.auth.token (or OPENCLAW_GATEWAY_TOKEN), or pass --token.
+  (node:20810) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+  (Use `node --trace-deprecation ...` to show where the warning was created)
+  2026-02-11T23:22:31.989Z Gateway auth is set to token, but no token is configured.
+  … 18 lines omitted …
+  (Use `node --trace-deprecation ...` to show where the warning was created)
+  2026-02-11T23:23:22.786Z Gateway auth is set to token, but no token is configured.
+  Set gateway.auth.token (or OPENCLAW_GATEWAY_TOKEN), or pass --token.
+  (node:20898) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+  (Use `node --trace-deprecation ...` to show where the warning was created)
+  2026-02-11T23:23:32.723Z Gateway auth is set to token, but no token is configured.
+  Set gateway.auth.token (or OPENCLAW_GATEWAY_TOKEN), or pass --token.
+  (node:20910) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+  (Use `node --trace-deprecation ...` to show where the warning was created)
+  2026-02-11T23:23:43.748Z Gateway auth is set to token, but no token is configured.
+  Set gateway.auth.token (or OPENCLAW_GATEWAY_TOKEN), or pass --token.
+  (node:20941) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+  (Use `node --trace-deprecation ...` to show where the warning was created)
+  2026-02-11T23:23:54.081Z Gateway auth is set to token, but no token is configured.
+  Set gateway.auth.token (or OPENCLAW_GATEWAY_TOKEN), or pass --token.
+  # stdout: /Users/lrs/.openclaw/logs/gateway.log
+  2026-02-11T15:58:07.294Z [ws] ⇄ res ✓ node.list 58ms conn=7547b741…7882 id=f353db53…7c39
+  2026-02-11T15:59:08.271Z [ws] ⇄ res ✓ node.list 59ms conn=7547b741…7882 id=1ef7a2c2…dc7d
+  2026-02-11T16:00:07.274Z [ws] ⇄ res ✓ node.list 89ms conn=7547b741…7882 id=2b4a7fda…d7cb
+  2026-02-11T16:01:07.439Z [ws] ⇄ res ✓ node.list 64ms conn=7547b741…7882 id=22b2ec81…9131
+  2026-02-11T16:04:07.557Z [ws] ⇄ res ✓ node.list 66ms conn=7547b741…7882 id=a2e2249c…b1d5
+  2026-02-11T16:05:07.374Z [ws] ⇄ res ✓ node.list 77ms conn=7547b741…7882 id=8865660d…d86d
+  … 18 lines omitted …
+  2026-02-11T16:40:07.277Z [ws] ⇄ res ✓ node.list 59ms conn=7547b741…7882 id=79c45725…7c6c
+  2026-02-11T16:41:07.408Z [ws] ⇄ res ✓ node.list 163ms conn=7547b741…7882 id=3180f22d…4bc3
+  2026-02-11T16:41:46.288Z [ws] ⇄ res ✓ chat.history 71ms conn=7547b741…7882 id=f0de3a4d…d296
+  2026-02-11T16:42:38.796Z [ws] ⇄ res ✓ node.list 190ms conn=7547b741…7882 id=047b7354…3eab
+  2026-02-11T16:43:14.339Z [ws] ⇄ res ✓ status 104ms conn=f3e19590…a7bd id=354e52a3…4303
+  2026-02-11T16:44:52.402Z [ws] ⇄ res ✓ channels.status 1363ms conn=c8349aba…d242 id=09e0c55d…cbae
+  2026-02-11T16:44:59.754Z [ws] ⇄ res ✓ channels.status 78ms conn=7547b741…7882 id=2f286f44…df79
+  2026-02-11T16:44:59.824Z [ws] ⇄ res ✓ status 114ms conn=7547b741…7882 id=428218f9…2ef3
+  2026-02-11T16:46:02.224Z [ws] ⇄ res ✓ chat.history 55ms conn=7547b741…7882 id=8df28178…4154
+  2026-02-11T16:48:21.955Z [ws] ⇄ res ✓ chat.history 55ms conn=7547b741…7882 id=95ad07e7…084e
+  2026-02-11T16:49:50.087Z [ws] ⇄ res ✓ chat.history 79ms conn=7547b741…7882 id=5c129463…10d4
+  2026-02-11T16:51:20.781Z [ws] ⇄ res ✓ channels.status 55ms conn=2d966f99…6bce id=1f337cc1…9945
+  2026-02-11T16:51:24.738Z [gateway] signal SIGTERM received
+  2026-02-11T16:51:24.739Z [gateway] received SIGTERM; shutting down
+  2026-02-11T16:51:24.771Z [gmail-watcher] gmail watcher stopped
+! Channel issues skipped (gateway unreachable)
+
+Gateway health:
+  connect failed: connect ECONNREFUSED 127.0.0.1:18789
+
+Pasteable debug report. Auth tokens redacted.
+Troubleshooting: https://docs.openclaw.ai/troubleshooting
+
+◇  
+lrs@Lukes-MacBook-Pro ~ % openclaw gateway probe
+
+🦞 OpenClaw 2026.2.9 (33c75cb) — Hot reload for config, cold sweat for deploys.
+
+│
+◇  
+Gateway Status
+Reachable: no
+Probe budget: 3000ms
+
+Discovery (this machine)
+Found 0 gateways via Bonjour (local.)
+Tip: if the gateway is remote, mDNS won’t cross networks; use Wide-Area Bonjour (split DNS) or SSH tunnels.
+
+Targets
+Local loopback ws://127.0.0.1:18789
+  Connect: failed - connect failed: connect ECONNREFUSED 127.0.0.1:18789
+
+lrs@Lukes-MacBook-Pro ~ % openclaw logs --follow
+
+🦞 OpenClaw 2026.2.9 (33c75cb)
+   I run on caffeine, JSON5, and the audacity of "it worked on my machine."
+
+Gateway not reachable. Is it running and accessible?
+Gateway target: ws://127.0.0.1:18789
+Source: local loopback
+Config: /Users/lrs/.openclaw/openclaw.json
+Bind: loopback
+Hint: run `openclaw doctor`.
+lrs@Lukes-MacBook-Pro ~ % openclaw doctor       
+
+🦞 OpenClaw 2026.2.9 (33c75cb) — Your inbox, your infra, your rules.
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+██░▄▄▄░██░▄▄░██░▄▄▄██░▀██░██░▄▄▀██░████░▄▄▀██░███░██
+██░███░██░▀▀░██░▄▄▄██░█░█░██░█████░████░▀▀░██░█░█░██
+██░▀▀▀░██░█████░▀▀▀██░██▄░██░▀▀▄██░▀▀░█░██░██▄▀▄▀▄██
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                  🦞 OPENCLAW 🦞                    
+ 
+┌  OpenClaw doctor
+│
+◇  Update ───────────────────────────────────────────────────────────────╮
+│                                                                        │
+│  This install is not a git checkout.                                   │
+│  Run `openclaw update` to update via your package manager (npm/pnpm),  │
+│  then rerun doctor.                                                    │
+│                                                                        │
+├────────────────────────────────────────────────────────────────────────╯
+│
+◇  Gateway auth ──────────────────────────────────────────────────╮
+│                                                                 │
+│  Gateway auth is off or missing a token. Token auth is now the  │
+│  recommended default (including loopback).                      │
+│                                                                 │
+├─────────────────────────────────────────────────────────────────╯
+│
+◇  Generate and configure a gateway token now?
+│  No
+│
+◇  Other gateway-like services detected ──────────────────────────╮
+│                                                                 │
+│  - com.clawdbot.gateway (user, plist:                           │
+│    /Users/lrs/Library/LaunchAgents/com.clawdbot.gateway.plist)  │
+│                                                                 │
+├─────────────────────────────────────────────────────────────────╯
+│
+◇  Remove legacy gateway services (clawdbot/moltbot) now?
+│  Yes
+│
+◇  Legacy gateway removed ───────────────────────────────────────╮
+│                                                                │
+│  - com.clawdbot.gateway ->                                     │
+│    /Users/lrs/.Trash/com.clawdbot.gateway-1770852503770.plist  │
+│                                                                │
+├────────────────────────────────────────────────────────────────╯
+Legacy gateway services removed. Installing OpenClaw gateway next.
+│
+◇  Cleanup hints ─────────────────────────────────────────╮
+│                                                         │
+│  - launchctl bootout gui/$UID/ai.openclaw.gateway       │
+│  - rm ~/Library/LaunchAgents/ai.openclaw.gateway.plist  │
+│                                                         │
+├─────────────────────────────────────────────────────────╯
+│
+◇  Gateway recommendation ───────────────────────────────────────────────╮
+│                                                                        │
+│  Recommendation: run a single gateway per machine for most setups.     │
+│  One gateway supports multiple agents.                                 │
+│  If you need multiple gateways (e.g., a rescue bot on the same host),  │
+│  isolate ports + config/state (see docs:                               │
+│  /gateway#multiple-gateways-same-host).                                │
+│                                                                        │
+├────────────────────────────────────────────────────────────────────────╯
+│
+◇  Security ────────────────────────────────────────────────────────────╮
+│                                                                       │
+│  - Telegram DMs: multiple senders share the main session; set         │
+│    session.dmScope="per-channel-peer" (or "per-account-channel-peer"  │
+│    for multi-account channels) to isolate sessions.                   │
+│  - Run: openclaw security audit --deep                                │
+│                                                                       │
+├───────────────────────────────────────────────────────────────────────╯
+│
+◇  Skills status ────────────╮
+│                            │
+│  Eligible: 7               │
+│  Missing requirements: 42  │
+│  Blocked by allowlist: 0   │
+│                            │
+├────────────────────────────╯
+│
+◇  Plugins ──────╮
+│                │
+│  Loaded: 6     │
+│  Disabled: 28  │
+│  Errors: 0     │
+│                │
+├────────────────╯
+│
+◇  Enable zsh shell completion for openclaw?
+│  Yes
+│
+◇  Shell completion ───────────────────────────────────────────────────────╮
+│                                                                          │
+│  Shell completion installed. Restart your shell or run: source ~/.zshrc  │
+│                                                                          │
+├──────────────────────────────────────────────────────────────────────────╯
+│
+◇  
+│
+◇  Gateway ──────────────╮
+│                        │
+│  Gateway not running.  │
+│                        │
+├────────────────────────╯
+│
+◇  Gateway connection ─────────────────────────╮
+│                                              │
+│  Gateway target: ws://127.0.0.1:18789        │
+│  Source: local loopback                      │
+│  Config: /Users/lrs/.openclaw/openclaw.json  │
+│  Bind: loopback                              │
+│                                              │
+├──────────────────────────────────────────────╯
+│
+◇  Gateway ──────────────────────────────────────────────────────────────╮
+│                                                                        │
+│  Runtime: stopped (state spawn scheduled)                              │
+│  Service is loaded but not running (likely exited immediately).        │
+│  File logs: /tmp/openclaw/openclaw-2026-02-11.log                      │
+│  Launchd stdout (if installed): /Users/lrs/.openclaw/logs/gateway.log  │
+│  Launchd stderr (if installed):                                        │
+│  /Users/lrs/.openclaw/logs/gateway.err.log                             │
+│                                                                        │
+├────────────────────────────────────────────────────────────────────────╯
+│
+◇  Start gateway service now?
+│  Yes
+Restarted LaunchAgent: gui/501/ai.openclaw.gateway
+│
+◇  Gateway ──────────────────────────────────────────────────────────╮
+│                                                                    │
+│  LaunchAgent loaded; stopping requires "openclaw gateway stop" or  │
+│  launchctl bootout gui/$UID/ai.openclaw.gateway.                   │
+│                                                                    │
+├────────────────────────────────────────────────────────────────────╯
+Run "openclaw doctor --fix" to apply changes.
+│
+└  Doctor complete.
+
+lrs@Lukes-MacBook-Pro ~ % openclaw doctor --fix 
+
+🦞 OpenClaw 2026.2.9 (33c75cb)
+   Less clicking, more shipping, fewer "where did that file go" moments.
+
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+██░▄▄▄░██░▄▄░██░▄▄▄██░▀██░██░▄▄▀██░████░▄▄▀██░███░██
+██░███░██░▀▀░██░▄▄▄██░█░█░██░█████░████░▀▀░██░█░█░██
+██░▀▀▀░██░█████░▀▀▀██░██▄░██░▀▀▄██░▀▀░█░██░██▄▀▄▀▄██
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+                  🦞 OPENCLAW 🦞                    
+ 
+┌  OpenClaw doctor
+│
+◇  Gateway auth ──────────────────────────────────────────────────╮
+│                                                                 │
+│  Gateway auth is off or missing a token. Token auth is now the  │
+│  recommended default (including loopback).                      │
+│                                                                 │
+├─────────────────────────────────────────────────────────────────╯
+│
+◇  Gateway auth ──────────────╮
+│                             │
+│  Gateway token configured.  │
+│                             │
+├─────────────────────────────╯
+│
+◇  Security ────────────────────────────────────────────────────────────╮
+│                                                                       │
+│  - Telegram DMs: multiple senders share the main session; set         │
+│    session.dmScope="per-channel-peer" (or "per-account-channel-peer"  │
+│    for multi-account channels) to isolate sessions.                   │
+│  - Run: openclaw security audit --deep                                │
+│                                                                       │
+├───────────────────────────────────────────────────────────────────────╯
+│
+◇  Skills status ────────────╮
+│                            │
+│  Eligible: 7               │
+│  Missing requirements: 42  │
+│  Blocked by allowlist: 0   │
+│                            │
+├────────────────────────────╯
+│
+◇  Plugins ──────╮
+│                │
+│  Loaded: 6     │
+│  Disabled: 28  │
+│  Errors: 0     │
+│                │
+├────────────────╯
+│
+◇  
+│
+◇  Gateway ──────────────╮
+│                        │
+│  Gateway not running.  │
+│                        │
+├────────────────────────╯
+│
+◇  Gateway connection ─────────────────────────╮
+│                                              │
+│  Gateway target: ws://127.0.0.1:18789        │
+│  Source: local loopback                      │
+│  Config: /Users/lrs/.openclaw/openclaw.json  │
+│  Bind: loopback                              │
+│                                              │
+├──────────────────────────────────────────────╯
+│
+◇  Gateway ──────────────────────────────────────────────────────────────╮
+│                                                                        │
+│  Runtime: stopped (state spawn scheduled)                              │
+│  Service is loaded but not running (likely exited immediately).        │
+│  File logs: /tmp/openclaw/openclaw-2026-02-11.log                      │
+│  Launchd stdout (if installed): /Users/lrs/.openclaw/logs/gateway.log  │
+│  Launchd stderr (if installed):                                        │
+│  /Users/lrs/.openclaw/logs/gateway.err.log                             │
+│                                                                        │
+├────────────────────────────────────────────────────────────────────────╯
+Restarted LaunchAgent: gui/501/ai.openclaw.gateway
+│
+◇  Gateway ──────────────────────────────────────────────────────────╮
+│                                                                    │
+│  LaunchAgent loaded; stopping requires "openclaw gateway stop" or  │
+│  launchctl bootout gui/$UID/ai.openclaw.gateway.                   │
+│                                                                    │
+├────────────────────────────────────────────────────────────────────╯
+Updated ~/.openclaw/openclaw.json
+Backup: ~/.openclaw/openclaw.json.bak
+│
+└  Doctor complete.
+
+lrs@Lukes-MacBook-Pro ~ % openclaw dashboard --no-open → open the Control UI   
+error: too many arguments for 'dashboard'. Expected 0 arguments but got 5.
+lrs@Lukes-MacBook-Pro ~ % openclaw dashboard --no-open
+
+🦞 OpenClaw 2026.2.9 (33c75cb)
+   I'll butter your workflow like a lobster roll: messy, delicious, effective.
+
+Dashboard URL: http://127.0.0.1:18789/#token=13492c6741b6bdd37abdfd8612393702f2974b152b78fb10
+Copied to clipboard.
+Opened in your browser. Keep that tab to control OpenClaw.
+lrs@Lukes-MacBook-Pro ~ % 

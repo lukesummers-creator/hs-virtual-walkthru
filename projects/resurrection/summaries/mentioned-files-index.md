@@ -1,0 +1,504 @@
+# Mentioned filenames / paths (extracted from Telegram exports)
+
+Generated: 2026-02-07T07:12:09.898Z
+
+Best-effort extraction of file/path-like strings mentioned in chat.
+
+| Mention | Count | Example locations |
+|---|---:|---|
+| `projects/homestretch-proposals/PROCESS.md` | 26 | exports/homestretch-proposals-3507395346.md:3097<br>exports/homestretch-proposals-3507395346.md:3097<br>exports/homestretch-proposals-3507395346.md:3246 |
+| `projects/GUARDRAILS.md` | 24 | exports/mac-8414198711.md:3143<br>exports/the-pit-3893871630.md:273<br>exports/the-pit-3893871630.md:273 |
+| `projects/NETWORK-ROUTING.md` | 20 | exports/homestretch-proposals-3507395346.md:5634<br>exports/homestretch-proposals-3507395346.md:5661<br>exports/homestretch-proposals-3507395346.md:5661 |
+| `PRICING-JOURNAL.md` | 19 | exports/homestretch-proposals-3507395346.md:121<br>exports/homestretch-proposals-3507395346.md:364<br>exports/homestretch-proposals-3507395346.md:1484 |
+| `PROPOSAL-PACK.md` | 19 | exports/homestretch-proposals-3507395346.md:233<br>exports/homestretch-proposals-3507395346.md:283<br>exports/homestretch-proposals-3507395346.md:360 |
+| `Users/lrs/clawd` | 16 | exports/homestretch-proposals-3507395346.md:5859<br>exports/homestretch-proposals-3507395346.md:5859<br>exports/homestretch-proposals-3507395346.md:5864 |
+| `PROCESS.md` | 13 | exports/homestretch-proposals-3507395346.md:3254<br>exports/mac-8414198711.md:1880<br>exports/mac-8414198711.md:1893 |
+| `Users/lrs/.npm-global/bin/clawdbot` | 13 | exports/mac-8414198711.md:1684<br>exports/mac-8414198711.md:1695<br>exports/mac-8414198711.md:1699 |
+| `projects/homestretch-proposals/ROADMAP.md` | 12 | exports/homestretch-proposals-3507395346.md:2577<br>exports/homestretch-proposals-3507395346.md:2577<br>exports/homestretch-proposals-3507395346.md:2999 |
+| `RENAMED-MANIFEST.json` | 12 | exports/homestretch-proposals-3507395346.md:3181<br>exports/homestretch-proposals-3507395346.md:3204<br>exports/homestretch-proposals-3507395346.md:3227 |
+| `projects/sheets/SHEETS-AUTOMATION-PLAN.md` | 11 | exports/mac-8414198711.md:697<br>exports/the-pit-3893871630.md:356<br>exports/the-pit-3893871630.md:356 |
+| `MEMORY.md` | 10 | exports/homestretch-proposals-3507395346.md:49<br>exports/homestretch-proposals-3507395346.md:272<br>exports/homestretch-proposals-3507395346.md:2581 |
+| `projects/homestretch-proposals/PRICING-JOURNAL-RULES.md` | 10 | exports/homestretch-proposals-3507395346.md:5883<br>exports/homestretch-proposals-3507395346.md:5883<br>exports/mac-8414198711.md:2530 |
+| `README.md` | 10 | exports/mac-8414198711.md:1850<br>exports/mac-8414198711.md:1879<br>exports/mac-8414198711.md:1892 |
+| `projects/the-pit/INDEX.md` | 9 | exports/the-pit-3893871630.md:122<br>exports/the-pit-3893871630.md:147<br>exports/the-pit-3893871630.md:147 |
+| `STATUS.md` | 9 | exports/mac-8414198711.md:1851<br>exports/mac-8414198711.md:1860<br>exports/mac-8414198711.md:1895 |
+| `clawdbot/clawdbot.json` | 8 | exports/mac-8414198711.md:1604<br>exports/mac-8414198711.md:1738<br>exports/mac-8414198711.md:1741 |
+| `memory/self-review.md` | 7 | exports/homestretch-proposals-3507395346.md:2584<br>exports/homestretch-proposals-3507395346.md:3002<br>exports/homestretch-proposals-3507395346.md:4319 |
+| `projects/sheets/JOB-SHEET-USER-MANUAL.md` | 7 | exports/homestretch-sheets-5248330880.md:165<br>exports/homestretch-sheets-5248330880.md:165<br>exports/homestretch-sheets-5248330880.md:208 |
+| `memory/2026-02-03.md` | 6 | exports/homestretch-proposals-3507395346.md:2571<br>exports/homestretch-proposals-3507395346.md:2998<br>exports/homestretch-proposals-3507395346.md:3104 |
+| `projects/homestretch-proposals/jobs.md` | 6 | exports/homestretch-proposals-3507395346.md:3264<br>exports/homestretch-proposals-3507395346.md:3264<br>exports/homestretch-proposals-3507395346.md:3275 |
+| `projects/homestretch-proposals/notes/CONTRACTOR-SCOPE-PAGES-SPEC.md` | 6 | exports/homestretch-proposals-3507395346.md:5847<br>exports/homestretch-proposals-3507395346.md:5847<br>exports/homestretch-proposals-3507395346.md:5863 |
+| `projects/passport/PASSPORT-RENEWAL-2026.md` | 6 | exports/the-pit-3893871630.md:355<br>exports/the-pit-3893871630.md:355<br>exports/the-pit-3893871630.md:478 |
+| `projects/sheets/PROCESS.md` | 6 | exports/mac-8414198711.md:1956<br>exports/mac-8414198711.md:1956<br>exports/mac-8414198711.md:1979 |
+| `projects/sheets/STATUS.md` | 6 | exports/mac-8414198711.md:1958<br>exports/mac-8414198711.md:1958<br>exports/homestretch-sheets-5248330880.md:200 |
+| `Users/lrs/clawd/tmp/hs-virtual-walkthru-local-preview/HS-2026-02-03-K7Q2/paint/index.html` | 6 | exports/homestretch-proposals-3507395346.md:2408<br>exports/homestretch-proposals-3507395346.md:2424<br>exports/homestretch-proposals-3507395346.md:2444 |
+| `projects/homestretch-proposals/` | 5 | exports/mac-8414198711.md:3344<br>exports/the-pit-3893871630.md:109<br>exports/the-pit-3893871630.md:202 |
+| `ROADMAP.md` | 5 | exports/mac-8414198711.md:1881<br>exports/mac-8414198711.md:1894<br>exports/mac-8414198711.md:1924 |
+| `Updated memory/self-review.md` | 5 | exports/homestretch-proposals-3507395346.md:1365<br>exports/homestretch-proposals-3507395346.md:4954<br>exports/homestretch-proposals-3507395346.md:5574 |
+| `projects/groceries/notes/GROCERIES-OPS.md` | 4 | exports/the-pit-3893871630.md:354<br>exports/the-pit-3893871630.md:354<br>exports/the-pit-3893871630.md:517 |
+| `projects/groceries/PROCESS.md` | 4 | exports/mac-8414198711.md:1952<br>exports/mac-8414198711.md:1952<br>exports/mac-8414198711.md:1977 |
+| `projects/homestretch-proposals/pricing-matrix/handyman_unit_times.csv` | 4 | exports/homestretch-proposals-3507395346.md:5093<br>exports/homestretch-proposals-3507395346.md:5093<br>exports/homestretch-proposals-3507395346.md:5160 |
+| `projects/sheets/DECISIONS.md` | 4 | exports/mac-8414198711.md:1959<br>exports/mac-8414198711.md:1959<br>exports/homestretch-sheets-5248330880.md:203 |
+| `projects/sheets/README.md` | 4 | exports/mac-8414198711.md:1955<br>exports/mac-8414198711.md:1955<br>exports/homestretch-sheets-5248330880.md:213 |
+| `projects/the-pit/GUARDRAILS.md` | 4 | exports/the-pit-3893871630.md:190<br>exports/the-pit-3893871630.md:190<br>exports/the-pit-3893871630.md:254 |
+| `DECISIONS.md` | 3 | exports/mac-8414198711.md:1852<br>exports/mac-8414198711.md:1861<br>exports/mac-8414198711.md:2000 |
+| `I updated PROCESS.md` | 3 | exports/homestretch-proposals-3507395346.md:3273<br>exports/homestretch-proposals-3507395346.md:3530<br>exports/homestretch-proposals-3507395346.md:4350 |
+| `projects/homestretch-proposals/JOBS.md` | 3 | exports/mac-8414198711.md:1071<br>exports/mac-8414198711.md:1071<br>exports/mac-8414198711.md:1111 |
+| `projects/homestretch-proposals/jobs/` | 3 | exports/homestretch-proposals-3507395346.md:4698<br>exports/homestretch-proposals-3507395346.md:4912<br>exports/mac-8414198711.md:2677 |
+| `projects/homestretch-proposals/jobs/188 Goodview Dr Valpo JSON Pkg/` | 3 | exports/homestretch-proposals-3507395346.md:3141<br>exports/homestretch-proposals-3507395346.md:3166<br>exports/homestretch-proposals-3507395346.md:3179 |
+| `projects/homestretch-proposals/jobs/188 Goodview Dr Valpo JSON Pkg/PROPOSAL-PACK.md` | 3 | exports/homestretch-proposals-3507395346.md:3322<br>exports/homestretch-proposals-3507395346.md:3758<br>exports/homestretch-proposals-3507395346.md:3774 |
+| `projects/homestretch-proposals/jobs/188 Goodview Dr Valpo JSON Pkg/PROPOSAL-PACK.md failed` | 3 | exports/homestretch-proposals-3507395346.md:3322<br>exports/homestretch-proposals-3507395346.md:3758<br>exports/homestretch-proposals-3507395346.md:3774 |
+| `projects/homestretch-proposals/jobs/9046 Kleinman Rd Highland` | 3 | exports/homestretch-proposals-3507395346.md:5358<br>exports/homestretch-sheets-5248330880.md:130<br>exports/homestretch-sheets-5248330880.md:143 |
+| `projects/TEMPLATES/PROJECT-SKELETON/` | 3 | exports/the-pit-3893871630.md:547<br>exports/the-pit-3893871630.md:604<br>exports/the-pit-3893871630.md:615 |
+| `projects/the-pit/QUESTS/network-guardrails/STATUS.md` | 3 | exports/the-pit-3893871630.md:585<br>exports/the-pit-3893871630.md:595<br>exports/the-pit-3893871630.md:595 |
+| `re using .xlsx` | 3 | exports/mac-8414198711.md:712<br>exports/homestretch-sheets-5248330880.md:14<br>exports/homestretch-sheets-5248330880.md:96 |
+| `source.zip` | 3 | exports/homestretch-proposals-3507395346.md:281<br>exports/homestretch-proposals-3507395346.md:3206<br>exports/homestretch-proposals-3507395346.md:3227 |
+| `This project inherits projects/GUARDRAILS.md` | 3 | exports/the-pit-3893871630.md:274<br>exports/the-pit-3893871630.md:318<br>exports/the-pit-3893871630.md:347 |
+| `Updated MEMORY.md` | 3 | exports/homestretch-proposals-3507395346.md:696<br>exports/homestretch-proposals-3507395346.md:1366<br>exports/homestretch-proposals-3507395346.md:1507 |
+| `2. re-add the spec link properly in the correct PROCESS.md` | 2 | exports/homestretch-proposals-3507395346.md:5869<br>exports/mac-8414198711.md:2514 |
+| `3ff23671-1356-430e-a4e5-332986de7870.zip` | 2 | exports/homestretch-proposals-3507395346.md:333<br>exports/homestretch-proposals-3507395346.md:340 |
+| `all the project group chat ids are already in TOOLS.md` | 2 | exports/mac-8414198711.md:1291<br>exports/the-pit-3893871630.md:430 |
+| `Also updated PROCESS.md` | 2 | exports/homestretch-proposals-3507395346.md:3451<br>exports/homestretch-proposals-3507395346.md:3660 |
+| `I updated MEMORY.md` | 2 | exports/homestretch-proposals-3507395346.md:588<br>exports/homestretch-proposals-3507395346.md:803 |
+| `INBOX.md` | 2 | exports/mac-8414198711.md:3155<br>exports/the-pit-3893871630.md:94 |
+| `including the earlier projects/homestretch-proposals/... docs like PROCESS.md` | 2 | exports/homestretch-proposals-3507395346.md:5859<br>exports/mac-8414198711.md:2504 |
+| `inherits projects/GUARDRAILS.md` | 2 | exports/the-pit-3893871630.md:475<br>exports/the-pit-3893871630.md:505 |
+| `jobs.md` | 2 | exports/homestretch-proposals-3507395346.md:3259<br>exports/mac-8414198711.md:1902 |
+| `Jobs/012026 10421 Privet Dr St John/PANDADOC-QUOTE-UPDATES.txt` | 2 | exports/homestretch-proposals-3507395346.md:5607<br>exports/homestretch-proposals-3507395346.md:5628 |
+| `jobs/10421 Privet Dr St John JSON Pkg/PROPOSAL-PACK.md` | 2 | exports/homestretch-proposals-3507395346.md:5349<br>exports/homestretch-proposals-3507395346.md:5395 |
+| `Mac can you capture the info on this flyer into a .md` | 2 | exports/mac-8414198711.md:2425<br>exports/mac-8414198711.md:2429 |
+| `No changes made to projects/homestretch-proposals/jobs/188 Goodview Dr Valpo JSON Pkg/PROPOSAL-PACK.md` | 2 | exports/homestretch-proposals-3507395346.md:3758<br>exports/homestretch-proposals-3507395346.md:3774 |
+| `Okay all the ids should be in tools.md` | 2 | exports/mac-8414198711.md:1287<br>exports/the-pit-3893871630.md:427 |
+| `open projects/homestretch-proposals/PROCESS.md` | 2 | exports/homestretch-proposals-3507395346.md:5890<br>exports/mac-8414198711.md:2537 |
+| `projects/` | 2 | exports/mac-8414198711.md:809<br>exports/mac-8414198711.md:2791 |
+| `projects/groceries/` | 2 | exports/mac-8414198711.md:2587<br>exports/the-pit-3893871630.md:383 |
+| `projects/groceries/ROADMAP.md` | 2 | exports/the-pit-3893871630.md:643<br>exports/the-pit-3893871630.md:643 |
+| `projects/groceries/STATUS.md` | 2 | exports/mac-8414198711.md:1953<br>exports/mac-8414198711.md:1953 |
+| `projects/homestretch-marketing/real-producers/ways-to-win-2026.md` | 2 | exports/mac-8414198711.md:2434<br>exports/mac-8414198711.md:2434 |
+| `projects/homestretch-proposals.` | 2 | exports/mac-8414198711.md:2636<br>exports/mac-8414198711.md:2721 |
+| `projects/homestretch-proposals/_INBOX/Quote Language and Blurbs.md` | 2 | exports/homestretch-proposals-3507395346.md:1380<br>exports/homestretch-proposals-3507395346.md:1380 |
+| `projects/homestretch-proposals/... docs like PROCESS.md` | 2 | exports/homestretch-proposals-3507395346.md:5859<br>exports/mac-8414198711.md:2504 |
+| `projects/homestretch-proposals/jobs/10421 Privet Dr St John JSON Pkg/PROPOSAL-PACK.md` | 2 | exports/homestretch-proposals-3507395346.md:5372<br>exports/homestretch-proposals-3507395346.md:5698 |
+| `projects/homestretch-proposals/jobs/13547 Drummond St Cedar Lake JSON Pkg/` | 2 | exports/homestretch-proposals-3507395346.md:4979<br>exports/homestretch-proposals-3507395346.md:5033 |
+| `projects/homestretch-proposals/jobs/188 Goodview Dr Valpo JSON Pkg/PROPOSAL-PACK.md. The replacement produced identical content. This might indicate an issue with special characters or the text not existing as expected.` | 2 | exports/homestretch-proposals-3507395346.md:3758<br>exports/homestretch-proposals-3507395346.md:3774 |
+| `projects/homestretch-proposals/notes/AFTER-ACTION-FASTFIELD-MAPPING.md` | 2 | exports/homestretch-proposals-3507395346.md:3001<br>exports/homestretch-proposals-3507395346.md:3001 |
+| `projects/homestretch-proposals/notes/HANDYMAN-RATE-TABLE-DRAFT.md` | 2 | exports/homestretch-proposals-3507395346.md:1006<br>exports/homestretch-proposals-3507395346.md:1006 |
+| `projects/homestretch-proposals/pricing-matrix/` | 2 | exports/homestretch-proposals-3507395346.md:3444<br>exports/mac-8414198711.md:2643 |
+| `projects/homestretch-proposals/pricing-matrix/SHS Paint Pricing Matrix v1.pdf` | 2 | exports/homestretch-proposals-3507395346.md:3375<br>exports/homestretch-proposals-3507395346.md:3375 |
+| `projects/homestretch-proposals/PROCESS.md locally` | 2 | exports/homestretch-proposals-3507395346.md:5890<br>exports/mac-8414198711.md:2537 |
+| `projects/homestretch-proposals/ROADMAP.md to point to PROCESS.md` | 2 | exports/homestretch-proposals-3507395346.md:3103<br>exports/homestretch-proposals-3507395346.md:3103 |
+| `projects/homestretch-proposals/tools/handyman_site_export_v2.py --jobdir` | 2 | exports/homestretch-proposals-3507395346.md:5255<br>exports/homestretch-proposals-3507395346.md:5355 |
+| `projects/README.md` | 2 | exports/mac-8414198711.md:845<br>exports/mac-8414198711.md:845 |
+| `projects/requirements.` | 2 | exports/homestretch-proposals-3507395346.md:4170<br>exports/the-pit-3893871630.md:244 |
+| `projects/ROUTING.md` | 2 | exports/the-pit-3893871630.md:365<br>exports/the-pit-3893871630.md:365 |
+| `projects/sheets/_job-sheet-analysis-9046.json` | 2 | exports/homestretch-sheets-5248330880.md:178<br>exports/homestretch-sheets-5248330880.md:178 |
+| `projects/sheets/ROADMAP.md` | 2 | exports/mac-8414198711.md:1957<br>exports/mac-8414198711.md:1957 |
+| `projects/sheets/SHEETS-AUTOMATION-PLAN.md.` | 2 | exports/mac-8414198711.md:712<br>exports/homestretch-sheets-5248330880.md:14 |
+| `projects/TEMPLATES/PROJECT-SKELETON/PROCESS.md` | 2 | exports/the-pit-3893871630.md:573<br>exports/the-pit-3893871630.md:573 |
+| `projects/TEMPLATES/PROJECT-SKELETON/README.md` | 2 | exports/the-pit-3893871630.md:572<br>exports/the-pit-3893871630.md:572 |
+| `projects/the-pit/` | 2 | exports/the-pit-3893871630.md:85<br>exports/the-pit-3893871630.md:381 |
+| `projects/the-pit/INBOX.md` | 2 | exports/the-pit-3893871630.md:148<br>exports/the-pit-3893871630.md:148 |
+| `projects/the-pit/QUESTS/network-guardrails/` | 2 | exports/the-pit-3893871630.md:183<br>exports/the-pit-3893871630.md:471 |
+| `projects/the-pit/QUESTS/network-guardrails/02-worklog.md` | 2 | exports/the-pit-3893871630.md:521<br>exports/the-pit-3893871630.md:521 |
+| `projects/the-pit/README.md` | 2 | exports/the-pit-3893871630.md:146<br>exports/the-pit-3893871630.md:146 |
+| `projects/the-pit/TEMPLATES/DEPLOY-CHECKLIST.md` | 2 | exports/the-pit-3893871630.md:542<br>exports/the-pit-3893871630.md:542 |
+| `reconcile with NETWORK-ROUTING.md` | 2 | exports/mac-8414198711.md:1331<br>exports/mac-8414198711.md:1346 |
+| `s not in TOOLS.md` | 2 | exports/mac-8414198711.md:1298<br>exports/the-pit-3893871630.md:437 |
+| `s why my attempt to link the new spec from PROCESS.md` | 2 | exports/homestretch-proposals-3507395346.md:5859<br>exports/mac-8414198711.md:2504 |
+| `section to TOOLS.md` | 2 | exports/mac-8414198711.md:1302<br>exports/the-pit-3893871630.md:441 |
+| `see projects/sheets/SHEETS-AUTOMATION-PLAN.md` | 2 | exports/mac-8414198711.md:712<br>exports/homestretch-sheets-5248330880.md:14 |
+| `TOOLS.md` | 2 | exports/mac-8414198711.md:1325<br>exports/the-pit-3893871630.md:504 |
+| `Update projects/homestretch-proposals/jobs.md` | 2 | exports/homestretch-proposals-3507395346.md:4709<br>exports/homestretch-proposals-3507395346.md:4917 |
+| `Updated memory/2026-02-03.md` | 2 | exports/homestretch-proposals-3507395346.md:4952<br>exports/mac-8414198711.md:1402 |
+| `Users/lrs/clawd/.` | 2 | exports/homestretch-proposals-3507395346.md:5878<br>exports/mac-8414198711.md:2525 |
+| `Users/lrs/clawd/.../yourfile.md` | 2 | exports/mac-8414198711.md:3206<br>exports/mac-8414198711.md:3206 |
+| `Users/lrs/clawd/projects/` | 2 | exports/mac-8414198711.md:2546<br>exports/mac-8414198711.md:2565 |
+| `Users/lrs/clawd/projects/GUARDRAILS.md` | 2 | exports/mac-8414198711.md:3143<br>exports/mac-8414198711.md:3143 |
+| `Users/lrs/clawd/projects/MEMORY-SYSTEM-RULES.md` | 2 | exports/mac-8414198711.md:3144<br>exports/mac-8414198711.md:3144 |
+| `Users/lrs/clawd/projects/NETWORK-ROUTING.md` | 2 | exports/mac-8414198711.md:3145<br>exports/mac-8414198711.md:3145 |
+| `Users/lrs/clawd/tmp/hs-virtual-walkthru-local-preview/HS-2026-02-03-K7Q2/handyman/index.html` | 2 | exports/homestretch-proposals-3507395346.md:2509<br>exports/homestretch-proposals-3507395346.md:2538 |
+| `Users/lrs/clawd/tmp/hs-virtual-walkthru-local-preview/HS-2026-02-03-K7Q2/walkthru/index.html` | 2 | exports/homestretch-proposals-3507395346.md:2507<br>exports/homestretch-proposals-3507395346.md:2537 |
+| `WorkbookName__YYYY-MM-DD__INPUT.xlsx` | 2 | exports/mac-8414198711.md:622<br>exports/homestretch-sheets-5248330880.md:105 |
+| `WorkbookName__YYYY-MM-DD__OUTPUT.xlsx` | 2 | exports/mac-8414198711.md:628<br>exports/homestretch-sheets-5248330880.md:106 |
+| `_inbox/a99be57f-f77e-4e0c-850d-9c6a362c0450.zip` | 1 | exports/homestretch-proposals-3507395346.md:3164 |
+| `00-brief.md` | 1 | exports/the-pit-3893871630.md:98 |
+| `01-context.md` | 1 | exports/the-pit-3893871630.md:99 |
+| `01-foyer-01.jpg` | 1 | exports/homestretch-proposals-3507395346.md:299 |
+| `02-worklog.md` | 1 | exports/the-pit-3893871630.md:100 |
+| `04-deploy.md` | 1 | exports/the-pit-3893871630.md:102 |
+| `1. I created projects/homestretch-proposals/ROADMAP.md` | 1 | exports/homestretch-proposals-3507395346.md:1392 |
+| `1. If an .md` | 1 | exports/mac-8414198711.md:3137 |
+| `1. PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:4934 |
+| `1. PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:3746 |
+| `1. PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:4639 |
+| `1. RENAMED-MANIFEST.json` | 1 | exports/mac-8414198711.md:2958 |
+| `1. Where is the downloaded .md` | 1 | exports/homestretch-proposals-3507395346.md:3425 |
+| `10421 Privet Dr St John FastField.pdf` | 1 | exports/homestretch-proposals-3507395346.md:5589 |
+| `184-S-200-W__kitchen__01.jpg vs IMG_001_kitchen.jpg` | 1 | exports/homestretch-proposals-3507395346.md:165 |
+| `188 Goodview PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:4015 |
+| `188 Goodview PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:4014 |
+| `2 to the 184 S 200 W PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:511 |
+| `2. Do you want the original .zip` | 1 | exports/homestretch-proposals-3507395346.md:166 |
+| `2. PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:4643 |
+| `2. produce pricing-matrix/room_rate_tiers.csv` | 1 | exports/homestretch-proposals-3507395346.md:3399 |
+| `2. PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:4939 |
+| `3. Open a .md` | 1 | exports/mac-8414198711.md:951 |
+| `3. Then write a short entry in memory/YYYY-MM-DD.md` | 1 | exports/mac-8414198711.md:1862 |
+| `4. Chat/project ids are confirmed in TOOLS.md` | 1 | exports/the-pit-3893871630.md:472 |
+| `78b99a1f-aa51-47ac-b4dd-e7cbe6da49cd.json` | 1 | exports/homestretch-proposals-3507395346.md:4772 |
+| `9046 Kleinman Rd Highland Job Sheet.xlsx` | 1 | exports/homestretch-sheets-5248330880.md:196 |
+| `a1f19e3278fe.json` | 1 | exports/homestretch-proposals-3507395346.md:282 |
+| `a8ad2938-1ff4-4cd4-992e-c373b7738bf3.zip` | 1 | exports/homestretch-proposals-3507395346.md:5717 |
+| `a99be57f-f77e-4e0c-850d-9c6a362c0450.zip` | 1 | exports/homestretch-proposals-3507395346.md:3138 |
+| `add a simple atlas/_INDEX.md` | 1 | exports/mac-8414198711.md:1019 |
+| `Add a tiny atlas/_INDEX.md` | 1 | exports/mac-8414198711.md:1001 |
+| `Added a brief internal note in PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:2857 |
+| `Added a calibration anchor to docs/guides/HOMEstretch-Paint-Quoting-V1.md` | 1 | exports/homestretch-proposals-3507395346.md:4518 |
+| `Added the step-away prompt to x/HOW-TO-WORK-WITH-MAC.md` | 1 | exports/mac-8414198711.md:1110 |
+| `Added to PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:2856 |
+| `Added to projects/the-pit/INDEX.md` | 1 | exports/the-pit-3893871630.md:644 |
+| `Added to x/HOW-TO-WORK-WITH-MAC.md` | 1 | exports/mac-8414198711.md:1262 |
+| `Also added Migration to projects/README.md` | 1 | exports/mac-8414198711.md:2002 |
+| `Also linked that spec from PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:5854 |
+| `Also updated MEMORY.md` | 1 | exports/mac-8414198711.md:904 |
+| `Also updated projects/homestretch-proposals/jobs.md` | 1 | exports/homestretch-proposals-3507395346.md:3265 |
+| `Also updated projects/README.md` | 1 | exports/mac-8414198711.md:1963 |
+| `and decide whether TOOLS.md` | 1 | exports/the-pit-3893871630.md:493 |
+| `And I updated PRICING-JOURNAL-RULES.md` | 1 | exports/homestretch-proposals-3507395346.md:4891 |
+| `and I wrote the full bulletproof math into PROCESS.md` | 1 | exports/mac-8414198711.md:1139 |
+| `and just link to it from projects/README.md and TOOLS.md` | 1 | exports/mac-8414198711.md:1345 |
+| `and projects/GUARDRAILS.md` | 1 | exports/the-pit-3893871630.md:629 |
+| `and projects/homestretch-proposals/PROCESS.md` | 1 | exports/mac-8414198711.md:3146 |
+| `and the rules for them already live in projects/homestretch-proposals/PRICING-JOURNAL-RULES.md` | 1 | exports/the-pit-3893871630.md:335 |
+| `and TOOLS.md` | 1 | exports/mac-8414198711.md:1403 |
+| `and wait for your go/no-go before continuing. I also documented that permission in PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:4295 |
+| `any .jpg/.pdf/.xlsx/.zip/.json` | 1 | exports/mac-8414198711.md:2687 |
+| `append to projects/homestretch-proposals/PROCESS.md` | 1 | exports/the-pit-3893871630.md:161 |
+| `appended a full checkpoint section to memory/2026-02-03.md` | 1 | exports/the-pit-3893871630.md:612 |
+| `appended to memory/self-review.md` | 1 | exports/the-pit-3893871630.md:617 |
+| `appending them into RENAMED-MANIFEST.json` | 1 | exports/homestretch-proposals-3507395346.md:5240 |
+| `ARTIFACTS.md` | 1 | exports/mac-8414198711.md:1854 |
+| `Ashley DM id is in projects/NETWORK-ROUTING.md` | 1 | exports/mac-8414198711.md:2370 |
+| `atlas/_INDEX.md` | 1 | exports/mac-8414198711.md:1046 |
+| `atlas/People/Luke.md` | 1 | exports/mac-8414198711.md:896 |
+| `Atlas/People/Luke.md` | 1 | exports/mac-8414198711.md:820 |
+| `Atlas/Preferences/Jewel.md` | 1 | exports/mac-8414198711.md:820 |
+| `atlas/README.md` | 1 | exports/mac-8414198711.md:898 |
+| `atlas/Systems/Groceries.md` | 1 | exports/mac-8414198711.md:897 |
+| `Atlas/Systems/Groceries.md` | 1 | exports/mac-8414198711.md:820 |
+| `Because I now have the mapping saved in TOOLS.md` | 1 | exports/mac-8414198711.md:1220 |
+| `because the IDs already live in TOOLS.md` | 1 | exports/the-pit-3893871630.md:481 |
+| `both to the 184 S 200 W PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:784 |
+| `can you add the path to proposal-pack.md` | 1 | exports/homestretch-proposals-3507395346.md:5054 |
+| `chats/chat_2/files/HANDYMAN-SCOPE-OF-WORK.pdf` | 1 | exports/homestretch-proposals-3507395346.md:1547 |
+| `chats/chat_2/files/PAINT-SCOPE-OF-WORK.pdf` | 1 | exports/homestretch-proposals-3507395346.md:2204 |
+| `Checkpoint locked in memory/2026-02-06.md` | 1 | exports/homestretch-proposals-3507395346.md:5401 |
+| `Clawdbot-Update-Rollback-Guide.md` | 1 | exports/mac-8414198711.md:1799 |
+| `Converted projects/the-pit/GUARDRAILS.md` | 1 | exports/the-pit-3893871630.md:312 |
+| `Copied zip in as source.zip` | 1 | exports/homestretch-proposals-3507395346.md:3167 |
+| `copy it into projects/homestretch-proposals/notes/QUOTE-LANGUAGE-AND-BLURBS.md` | 1 | exports/homestretch-proposals-3507395346.md:1382 |
+| `copy the IDs into NETWORK-ROUTING.md` | 1 | exports/the-pit-3893871630.md:482 |
+| `Could not find the exact text in projects/homestretch-proposals/jobs/10421 Privet Dr St John JSON Pkg/PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:5698 |
+| `Could not find the exact text in projects/homestretch-proposals/jobs/188 Goodview Dr Valpo JSON Pkg/PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:3322 |
+| `Could not find the exact text in projects/homestretch-proposals/jobs/9046 Kleinman Rd Highland/PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:4894 |
+| `create projects/homestretch-proposals/SNIPPETS.md` | 1 | exports/the-pit-3893871630.md:160 |
+| `Created projects/GUARDRAILS.md` | 1 | exports/the-pit-3893871630.md:311 |
+| `Created projects/sheets/SHEETS-AUTOMATION-PLAN.md` | 1 | exports/mac-8414198711.md:697 |
+| `crisp v2 and draft the deploy plan for adding a one-paragraph guardrail section to any affected project PROCESS.md` | 1 | exports/the-pit-3893871630.md:206 |
+| `decisions to memory/2026-02-02.md` | 1 | exports/luke-passport-5018399744.md:168 |
+| `DEPLOY-CHECKLIST.md` | 1 | exports/the-pit-3893871630.md:92 |
+| `Disk Drill is not seeing the deleted RENAMED-MANIFEST.json` | 1 | exports/mac-8414198711.md:2987 |
+| `Done. I went back through 7540 W 92nd Ave and updated the PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:896 |
+| `e.g. atlas/_INDEX.md` | 1 | exports/mac-8414198711.md:993 |
+| `Ensure RENAMED-MANIFEST.json` | 1 | exports/homestretch-proposals-3507395346.md:5333 |
+| `every meaningful decision goes into 02-worklog.md` | 1 | exports/the-pit-3893871630.md:127 |
+| `extra root-level .md` | 1 | exports/mac-8414198711.md:3164 |
+| `extract all decisions/scopes/prices into new .md` | 1 | exports/mac-8414198711.md:3405 |
+| `filtering by .md` | 1 | exports/mac-8414198711.md:3215 |
+| `Final numbers get written into the PRICING-JOURNAL.md` | 1 | exports/homestretch-sheets-5248330880.md:80 |
+| `flat_rate_addons.csv` | 1 | exports/homestretch-proposals-3507395346.md:3448 |
+| `flavor-modules.md` | 1 | exports/mac-8414198711.md:1926 |
+| `From projects/homestretch-proposals/.../PRICING-JOURNAL.md` | 1 | exports/homestretch-sheets-5248330880.md:35 |
+| `generated from source.zip` | 1 | exports/homestretch-proposals-3507395346.md:395 |
+| `glow projects/groceries/Macs-Meals-Week-of-2026-02-02.md` | 1 | exports/mac-8414198711.md:933 |
+| `HANDYMAN-RATE-TABLE-DRAFT.md` | 1 | exports/homestretch-proposals-3507395346.md:1499 |
+| `HOMEstretch Project Proposal_ 10421 Privet Dr St John v2.pdf` | 1 | exports/homestretch-proposals-3507395346.md:5682 |
+| `I added that as an explicit bullet in the Backfill SOP in projects/homestretch-proposals/PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:5370 |
+| `I added the exact final message you used into PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:856 |
+| `I added this to the bottom of the Trim Pack scope section in PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:684 |
+| `I also created PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:4749 |
+| `I also refreshed PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:920 |
+| `I also updated projects/homestretch-proposals/PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:5101 |
+| `I also updated TOOLS.md` | 1 | exports/mac-8414198711.md:1170 |
+| `I author in plain .md` | 1 | exports/mac-8414198711.md:971 |
+| `I can add just PROCESS.md` | 1 | exports/mac-8414198711.md:1940 |
+| `I can also add DECISIONS.md` | 1 | exports/mac-8414198711.md:1981 |
+| `I can also make Obsidian open directly to atlas/_INDEX.md` | 1 | exports/mac-8414198711.md:1054 |
+| `I created PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:692 |
+| `I created projects/NETWORK-ROUTING.md` | 1 | exports/the-pit-3893871630.md:481 |
+| `I documented this as the official Backfill SOP in projects/homestretch-proposals/PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:4919 |
+| `I downloaded as .md` | 1 | exports/homestretch-proposals-3507395346.md:3387 |
+| `I edit locally and return an updated .xlsx` | 1 | exports/homestretch-sheets-5248330880.md:100 |
+| `I found the new SHS Paint Pricing Matrix.md` | 1 | exports/homestretch-proposals-3507395346.md:3459 |
+| `I gave the paint baseline another pass and updated the 184 S 200 W PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:525 |
+| `I think this rolls into PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:3958 |
+| `I updated both PROPOSAL-PACK.md and PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:2727 |
+| `I updated HOMEstretch-Handyman-Library-v0.md` | 1 | exports/homestretch-proposals-3507395346.md:5170 |
+| `I updated PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:1115 |
+| `I updated projects/homestretch-proposals/PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:3256 |
+| `I want your .mds that made up your memory system and notes... would the be lost as .md` | 1 | exports/mac-8414198711.md:3132 |
+| `I wrote this into projects/homestretch-proposals/PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:4261 |
+| `If you downloaded it as .md` | 1 | exports/homestretch-proposals-3507395346.md:3390 |
+| `If you screenshot the .md` | 1 | exports/mac-8414198711.md:3228 |
+| `If you send a screenshot of the .md` | 1 | exports/mac-8414198711.md:3185 |
+| `If you start seeing lots of f123456.jpg` | 1 | exports/mac-8414198711.md:2885 |
+| `If you tell me where you saved the .md` | 1 | exports/homestretch-proposals-3507395346.md:3396 |
+| `In 7540 .../PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:2662 |
+| `In HANDYMAN-RATE-TABLE-DRAFT.md` | 1 | exports/homestretch-proposals-3507395346.md:1190 |
+| `In projects/homestretch-proposals/docs/guides/HOMEstretch-Paint-Quoting-V1.md` | 1 | exports/homestretch-proposals-3507395346.md:3696 |
+| `in projects/NETWORK-ROUTING.md` | 1 | exports/homestretch-proposals-3507395346.md:5634 |
+| `In projects/the-pit/INDEX.md` | 1 | exports/the-pit-3893871630.md:122 |
+| `in proposal-pack.md` | 1 | exports/homestretch-proposals-3507395346.md:5194 |
+| `inbox/README.md` | 1 | exports/mac-8414198711.md:900 |
+| `includes PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:3227 |
+| `INDEX.md` | 1 | exports/the-pit-3893871630.md:86 |
+| `It includes the Job Sheet.xlsx` | 1 | exports/homestretch-sheets-5248330880.md:131 |
+| `it typically dumps files as f123456.jpg` | 1 | exports/mac-8414198711.md:2762 |
+| `jobs/10421 Privet Dr St John JSON Pkg/PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:5350 |
+| `jobs/10421.../PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:5694 |
+| `JOURNAL.md` | 1 | exports/mac-8414198711.md:1897 |
+| `Keep projects/NETWORK-ROUTING.md` | 1 | exports/mac-8414198711.md:1341 |
+| `Keep the .md` | 1 | exports/homestretch-proposals-3507395346.md:3394 |
+| `Keep TOOLS.md` | 1 | exports/mac-8414198711.md:1342 |
+| `keep TOOLS.md as the single source for chat IDs and make NETWORK-ROUTING.md` | 1 | exports/the-pit-3893871630.md:481 |
+| `knowledge is accumulating inside MEMORY.md` | 1 | exports/mac-8414198711.md:819 |
+| `Library/CloudStorage/GoogleDrive-.../.Trash/RENAMED-MANIFEST.json` | 1 | exports/mac-8414198711.md:2980 |
+| `like an atlas/README.md` | 1 | exports/mac-8414198711.md:845 |
+| `like projects/homestretch-proposals/PROCESS.md` | 1 | exports/the-pit-3893871630.md:340 |
+| `link to PROPOSAL-PACK.md` | 1 | exports/mac-8414198711.md:1084 |
+| `ll add a short section to projects/homestretch-proposals/ROADMAP.md or a new projects/homestretch-proposals/PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:3083 |
+| `ll be on to the next one. We just processed the .zip` | 1 | exports/homestretch-proposals-3507395346.md:881 |
+| `ll create a simple atlas/_INDEX.md` | 1 | exports/mac-8414198711.md:1033 |
+| `ll draft projects/GUARDRAILS.md` | 1 | exports/the-pit-3893871630.md:301 |
+| `ll refine GUARDRAILS.md` | 1 | exports/the-pit-3893871630.md:206 |
+| `ll revisit later. I added that as a backlog item in projects/the-pit/INDEX.md` | 1 | exports/the-pit-3893871630.md:499 |
+| `ll tell you the exact filter/sort combo to surface .md` | 1 | exports/mac-8414198711.md:3263 |
+| `LOG.md` | 1 | exports/mac-8414198711.md:1855 |
+| `Lots of .jpg` | 1 | exports/mac-8414198711.md:2640 |
+| `m looking over the PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:3249 |
+| `m not seeing any new FastField .zip` | 1 | exports/homestretch-proposals-3507395346.md:320 |
+| `Macs-Meals-and-More-Week-of-...md` | 1 | exports/mac-8414198711.md:1925 |
+| `Macs-Meals-Week-of-...md` | 1 | exports/mac-8414198711.md:1925 |
+| `maybe some .csv` | 1 | exports/mac-8414198711.md:2631 |
+| `maybe some .md` | 1 | exports/mac-8414198711.md:2631 |
+| `memory/2026-02-04.md` | 1 | exports/homestretch-sheets-5248330880.md:183 |
+| `memory/YYYY-MM-DD.md` | 1 | exports/mac-8414198711.md:806 |
+| `MERGE-MAP.md` | 1 | exports/homestretch-proposals-3507395346.md:3052 |
+| `missing .json` | 1 | exports/mac-8414198711.md:2631 |
+| `move it in projects/the-pit/INDEX.md` | 1 | exports/the-pit-3893871630.md:586 |
+| `move job status in jobs.md` | 1 | exports/homestretch-proposals-3507395346.md:3260 |
+| `moved 10421 to WAITING ON RESPONSE in projects/homestretch-proposals/jobs.md` | 1 | exports/homestretch-proposals-3507395346.md:5695 |
+| `NETWORK-ROUTING.md` | 1 | exports/mac-8414198711.md:1345 |
+| `next checkpoint I can also add a short dated entry to projects/sheets/STATUS.md` | 1 | exports/homestretch-sheets-5248330880.md:214 |
+| `No .md` | 1 | exports/mac-8414198711.md:3233 |
+| `no confirmation yet. And i also overwrote the old job sheet .xls` | 1 | exports/homestretch-proposals-3507395346.md:5673 |
+| `no PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:5316 |
+| `now check the google filestream inbox for a json.zip` | 1 | exports/homestretch-proposals-3507395346.md:5712 |
+| `Once I have the .md` | 1 | exports/homestretch-proposals-3507395346.md:3427 |
+| `open .xlsx` | 1 | exports/mac-8414198711.md:633 |
+| `Open any .md` | 1 | exports/mac-8414198711.md:919 |
+| `open projects/homestretch-proposals/JOBS.md` | 1 | exports/mac-8414198711.md:1112 |
+| `or .json` | 1 | exports/homestretch-proposals-3507395346.md:3052 |
+| `or BACKLOG.md` | 1 | exports/mac-8414198711.md:1853 |
+| `or projects/NETWORK-ROUTING.md` | 1 | exports/the-pit-3893871630.md:365 |
+| `other .md` | 1 | exports/mac-8414198711.md:3149 |
+| `overwritten 10421 Privet Dr St John Job Sheet.xlsx` | 1 | exports/homestretch-proposals-3507395346.md:5683 |
+| `PandaDoc PDF scope pulled into a new PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:4748 |
+| `pdf .xlsx .json .jpg` | 1 | exports/mac-8414198711.md:2756 |
+| `pdf then .xlsx` | 1 | exports/mac-8414198711.md:3098 |
+| `Please create a Job Sheet User Manual.md` | 1 | exports/homestretch-sheets-5248330880.md:148 |
+| `pointed her to PANDADOC-QUOTE-UPDATES.txt` | 1 | exports/homestretch-proposals-3507395346.md:5636 |
+| `pricing-journal-rules.md` | 1 | exports/homestretch-sheets-5248330880.md:54 |
+| `pricing-matrix/handyman_unit_times.csv` | 1 | exports/homestretch-proposals-3507395346.md:5188 |
+| `pricing-matrix/room_rate_tiers.csv` | 1 | exports/homestretch-proposals-3507395346.md:3384 |
+| `pricing-matrix/ROOM-RATE-TIERS.md` | 1 | exports/homestretch-proposals-3507395346.md:3383 |
+| `process.md` | 1 | exports/homestretch-sheets-5248330880.md:52 |
+| `products-library.md` | 1 | exports/mac-8414198711.md:1926 |
+| `projects/ and memory/ as-is` | 1 | exports/mac-8414198711.md:840 |
+| `projects/ for the job folder by address` | 1 | exports/homestretch-proposals-3507395346.md:273 |
+| `projects/ from a snapshot before the wipe. That` | 1 | exports/mac-8414198711.md:2565 |
+| `projects/ I currently only see` | 1 | exports/mac-8414198711.md:2546 |
+| `projects/ if we treat it as the canonical place and keep it small.` | 1 | exports/mac-8414198711.md:1337 |
+| `projects/ is fine` | 1 | exports/mac-8414198711.md:1346 |
+| `projects/...` | 1 | exports/mac-8414198711.md:2868 |
+| `projects/family/schoolhouse-preschool-comparison-2026-2027.md` | 1 | exports/mac-8414198711.md:2381 |
+| `projects/family/schoolhouse-preschool-comparison-2026-2027.md.` | 1 | exports/mac-8414198711.md:2381 |
+| `projects/groceries/ you` | 1 | exports/mac-8414198711.md:1921 |
+| `projects/groceries/_INBOX/ to match the pattern more closely.` | 1 | exports/mac-8414198711.md:1981 |
+| `projects/groceries/Macs-Meals-Week-of-2026-02-02.md` | 1 | exports/mac-8414198711.md:933 |
+| `projects/groceries/notes/` | 1 | exports/mac-8414198711.md:813 |
+| `projects/GUARDRAILS.md as the global source-of-truth` | 1 | exports/the-pit-3893871630.md:311 |
+| `projects/GUARDRAILS.md is the umbrella policy` | 1 | exports/the-pit-3893871630.md:339 |
+| `projects/GUARDRAILS.md is top-down policy` | 1 | exports/the-pit-3893871630.md:613 |
+| `projects/GUARDRAILS.md to both` | 1 | exports/the-pit-3893871630.md:570 |
+| `projects/GUARDRAILS.md. Any exceptions are listed below.` | 1 | exports/the-pit-3893871630.md:318 |
+| `projects/homestretch-proposals right now there are zero` | 1 | exports/mac-8414198711.md:2646 |
+| `projects/homestretch-proposals/ we already have a really usable` | 1 | exports/mac-8414198711.md:1877 |
+| `projects/homestretch-proposals/...` | 1 | exports/mac-8414198711.md:2983 |
+| `projects/homestretch-proposals/.../PRICING-JOURNAL.md` | 1 | exports/homestretch-sheets-5248330880.md:35 |
+| `projects/homestretch-proposals/docs/guides/HOMEstretch-Paint-Quoting-V1.md` | 1 | exports/homestretch-proposals-3507395346.md:3696 |
+| `projects/homestretch-proposals/JOBS.md and pin it if you want it always handy in the sidebar.` | 1 | exports/mac-8414198711.md:1112 |
+| `projects/homestretch-proposals/jobs.md and we` | 1 | exports/homestretch-proposals-3507395346.md:4679 |
+| `projects/homestretch-proposals/jobs.md so each job link points directly to PROPOSAL-PACK.md instead of the folder path` | 1 | exports/homestretch-proposals-3507395346.md:5057 |
+| `projects/homestretch-proposals/jobs.md statuses` | 1 | exports/homestretch-proposals-3507395346.md:4953 |
+| `projects/homestretch-proposals/jobs.md to include the new 188 Goodview job under IN PROGRESS` | 1 | exports/homestretch-proposals-3507395346.md:3265 |
+| `projects/homestretch-proposals/jobs.md with a Backfill Queue` | 1 | exports/homestretch-proposals-3507395346.md:4709 |
+| `projects/homestretch-proposals/jobs.md with concrete next steps` | 1 | exports/homestretch-proposals-3507395346.md:4318 |
+| `projects/homestretch-proposals/JOBS.md with simple buckets` | 1 | exports/mac-8414198711.md:1111 |
+| `projects/homestretch-proposals/jobs.md.` | 1 | exports/homestretch-proposals-3507395346.md:5695 |
+| `projects/homestretch-proposals/jobs/...` | 1 | exports/mac-8414198711.md:2791 |
+| `projects/homestretch-proposals/jobs/10421 Privet Dr` | 1 | exports/homestretch-proposals-3507395346.md:5355 |
+| `projects/homestretch-proposals/jobs/10421 Privet Dr St John JSON Pkg/PROPOSAL-PACK.md failed` | 1 | exports/homestretch-proposals-3507395346.md:5698 |
+| `projects/homestretch-proposals/jobs/10421 Privet Dr St John JSON Pkg/PROPOSAL-PACK.md.` | 1 | exports/homestretch-proposals-3507395346.md:5372 |
+| `projects/homestretch-proposals/jobs/10421 Privet Dr St John JSON Pkg/PROPOSAL-PACK.md. The old text must match exactly including all whitespace and newlines.` | 1 | exports/homestretch-proposals-3507395346.md:5698 |
+| `projects/homestretch-proposals/jobs/184 S 200 W Valparaiso JSON Pkg` | 1 | exports/homestretch-proposals-3507395346.md:280 |
+| `projects/homestretch-proposals/jobs/184 S 200 W Valparaiso JSON Pkg/ exists` | 1 | exports/homestretch-proposals-3507395346.md:231 |
+| `projects/homestretch-proposals/jobs/188 Goodview Dr` | 1 | exports/homestretch-proposals-3507395346.md:5255 |
+| `projects/homestretch-proposals/jobs/188 Goodview Dr Valpo JSON Pkg/PROPOSAL-PACK.md. The old text must match exactly including all whitespace and newlines.` | 1 | exports/homestretch-proposals-3507395346.md:3322 |
+| `projects/homestretch-proposals/jobs/9046 Kleinman Rd Highland/` | 1 | exports/homestretch-proposals-3507395346.md:4744 |
+| `projects/homestretch-proposals/jobs/9046 Kleinman Rd Highland/PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:4894 |
+| `projects/homestretch-proposals/jobs/9046 Kleinman Rd Highland/PROPOSAL-PACK.md failed` | 1 | exports/homestretch-proposals-3507395346.md:4894 |
+| `projects/homestretch-proposals/jobs/9046 Kleinman Rd Highland/PROPOSAL-PACK.md. The old text must match exactly including all whitespace and newlines.` | 1 | exports/homestretch-proposals-3507395346.md:4894 |
+| `projects/homestretch-proposals/notes/ that reads like a checklist/template for future jobs` | 1 | exports/homestretch-proposals-3507395346.md:5840 |
+| `projects/homestretch-proposals/notes/ that reads like a checklist/template for future jobs.` | 1 | exports/homestretch-proposals-3507395346.md:2585 |
+| `projects/homestretch-proposals/notes/QUOTE-LANGUAGE-AND-BLURBS.md` | 1 | exports/homestretch-proposals-3507395346.md:1382 |
+| `projects/homestretch-proposals/PRICING-JOURNAL-RULES.md.` | 1 | exports/the-pit-3893871630.md:335 |
+| `projects/homestretch-proposals/PROCESS.md so` | 1 | exports/homestretch-proposals-3507395346.md:3371 |
+| `projects/homestretch-proposals/PROCESS.md so we don` | 1 | exports/homestretch-proposals-3507395346.md:5370 |
+| `projects/homestretch-proposals/PROCESS.md to add` | 1 | exports/homestretch-proposals-3507395346.md:3256 |
+| `projects/homestretch-proposals/PROCESS.md under` | 1 | exports/homestretch-proposals-3507395346.md:5289 |
+| `projects/homestretch-proposals/PROCESS.md under a` | 1 | exports/homestretch-proposals-3507395346.md:4261 |
+| `projects/homestretch-proposals/PROCESS.md with the bulletproof pyramid math` | 1 | exports/mac-8414198711.md:1404 |
+| `projects/homestretch-proposals/PROCESS.md with this SOP.` | 1 | exports/homestretch-proposals-3507395346.md:5101 |
+| `projects/homestretch-proposals/proposals/ yet` | 1 | exports/homestretch-proposals-3507395346.md:235 |
+| `projects/homestretch-proposals/ROADMAP.md and added` | 1 | exports/homestretch-proposals-3507395346.md:1392 |
+| `projects/homestretch-proposals/ROADMAP.md or a new projects/homestretch-proposals/PROCESS.md describing` | 1 | exports/homestretch-proposals-3507395346.md:3083 |
+| `projects/homestretch-proposals/site-export/.../walkthru/assets/` | 1 | exports/mac-8414198711.md:2641 |
+| `projects/homestretch-proposals/site-export/HS-2026-02-03-K7Q2/` | 1 | exports/homestretch-proposals-3507395346.md:1741 |
+| `projects/homestretch-proposals/site-export/HS-2026-02-06-8BF3/walkthru/` | 1 | exports/homestretch-proposals-3507395346.md:5751 |
+| `projects/homestretch-proposals/site-export/HS-2026-02-06-8BF3/walkthru/assets/` | 1 | exports/mac-8414198711.md:2727 |
+| `projects/homestretch-proposals/site/ export folder` | 1 | exports/homestretch-proposals-3507395346.md:1588 |
+| `projects/homestretch-proposals/SNIPPETS.md` | 1 | exports/the-pit-3893871630.md:160 |
+| `projects/MEMORY-SYSTEM-RULES.md` | 1 | exports/mac-8414198711.md:3144 |
+| `projects/MEMORY-SYSTEM-RULES.md to formally define the standard project doc schema and the explicit` | 1 | exports/mac-8414198711.md:1962 |
+| `projects/migration/ with` | 1 | exports/mac-8414198711.md:1994 |
+| `projects/NETWORK-ROUTING.md as the source-of-truth for` | 1 | exports/mac-8414198711.md:1341 |
+| `projects/NETWORK-ROUTING.md if routing/authority is involved.` | 1 | exports/the-pit-3893871630.md:629 |
+| `projects/NETWORK-ROUTING.md maps Telegram` | 1 | exports/the-pit-3893871630.md:614 |
+| `projects/NETWORK-ROUTING.md now has the confirmed values` | 1 | exports/mac-8414198711.md:1315 |
+| `projects/NETWORK-ROUTING.md now has the full mapping` | 1 | exports/the-pit-3893871630.md:503 |
+| `projects/README.md Active list.` | 1 | exports/mac-8414198711.md:2002 |
+| `projects/README.md and TOOLS.md.` | 1 | exports/mac-8414198711.md:1345 |
+| `projects/README.md to include Sheets System in Active.` | 1 | exports/mac-8414198711.md:1963 |
+| `projects/sheets/ per the new schema` | 1 | exports/homestretch-sheets-5248330880.md:190 |
+| `projects/sheets/ to match proposals` | 1 | exports/mac-8414198711.md:1911 |
+| `projects/sheets/_INBOX/ and projects/sheets/artifacts/` | 1 | exports/mac-8414198711.md:1960 |
+| `projects/sheets/artifacts/9046-kleinman/` | 1 | exports/homestretch-sheets-5248330880.md:195 |
+| `projects/sheets/JOB-SHEET-USER-MANUAL.md to point at projects/sheets/artifacts/9046-kleinman/ as the canonical sample location.` | 1 | exports/homestretch-sheets-5248330880.md:208 |
+| `projects/sheets/STATUS.md now reflects next steps based on your feedback.` | 1 | exports/homestretch-sheets-5248330880.md:262 |
+| `projects/TEMPLATES/PROJECT-SKELETON/ README/PROCESS to mention STATUS/ROADMAP explicitly` | 1 | exports/mac-8414198711.md:1965 |
+| `projects/the-pit/ with an Active Stack` | 1 | exports/the-pit-3893871630.md:144 |
+| `projects/the-pit/ with the template files and start the first quest folder for the Ashley proposal defaults item we just brought over.` | 1 | exports/the-pit-3893871630.md:136 |
+| `projects/the-pit/GUARDRAILS.md into a pointer` | 1 | exports/the-pit-3893871630.md:312 |
+| `projects/the-pit/GUARDRAILS.md now just points to the global guardrails` | 1 | exports/the-pit-3893871630.md:470 |
+| `projects/the-pit/GUARDRAILS.md.` | 1 | exports/the-pit-3893871630.md:254 |
+| `projects/the-pit/INDEX.md from Active` | 1 | exports/the-pit-3893871630.md:586 |
+| `projects/the-pit/INDEX.md now has empty slots.` | 1 | exports/the-pit-3893871630.md:639 |
+| `projects/the-pit/INDEX.md under` | 1 | exports/the-pit-3893871630.md:644 |
+| `projects/the-pit/INDEX.md.` | 1 | exports/the-pit-3893871630.md:499 |
+| `projects/the-pit/QUESTS/ashley-proposal-defaults/` | 1 | exports/the-pit-3893871630.md:149 |
+| `projects/the-pit/QUESTS/ashley-proposal-defaults/ to Trash` | 1 | exports/the-pit-3893871630.md:638 |
+| `projects/the-pit/TEMPLATES/DEPLOY-CHECKLIST.md to include a` | 1 | exports/the-pit-3893871630.md:569 |
+| `proposals kind of uses jobs.md` | 1 | exports/mac-8414198711.md:1895 |
+| `QUEST-TEMPLATE.md` | 1 | exports/the-pit-3893871630.md:91 |
+| `Re-importing .xlsx` | 1 | exports/mac-8414198711.md:604 |
+| `readme.md` | 1 | exports/homestretch-sheets-5248330880.md:51 |
+| `Regenerated RENAMED-MANIFEST.json` | 1 | exports/homestretch-proposals-3507395346.md:5351 |
+| `renamed-images/...jpg` | 1 | exports/homestretch-proposals-3507395346.md:1576 |
+| `RENAMED-MANIFEST.json and any .json` | 1 | exports/mac-8414198711.md:2831 |
+| `roadmap.md` | 1 | exports/homestretch-sheets-5248330880.md:53 |
+| `room_rate_conditions.csv` | 1 | exports/homestretch-proposals-3507395346.md:3447 |
+| `room_rate_matrix.csv` | 1 | exports/homestretch-proposals-3507395346.md:3446 |
+| `s .zip` | 1 | exports/homestretch-proposals-3507395346.md:886 |
+| `s 01-context.md` | 1 | exports/the-pit-3893871630.md:106 |
+| `s 04-deploy.md` | 1 | exports/the-pit-3893871630.md:121 |
+| `s PROPOSAL-PACK.md` | 1 | exports/mac-8414198711.md:1091 |
+| `s the handyman-rate-table-draft.md` | 1 | exports/homestretch-proposals-3507395346.md:5106 |
+| `section in PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:3732 |
+| `section in projects/homestretch-proposals/jobs.md` | 1 | exports/homestretch-proposals-3507395346.md:4679 |
+| `sent in this channel as HANDYMAN-SCOPE-OF-WORK-7540-reordered.pdf` | 1 | exports/homestretch-proposals-3507395346.md:2114 |
+| `set projects/the-pit/QUESTS/network-guardrails/STATUS.md` | 1 | exports/the-pit-3893871630.md:585 |
+| `Start with your .xlsx` | 1 | exports/mac-8414198711.md:681 |
+| `store chatIds in TOOLS.md` | 1 | exports/mac-8414198711.md:832 |
+| `templates/BACKFILL-PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:4674 |
+| `templates/BACKFILL-PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:4673 |
+| `the .md` | 1 | exports/homestretch-proposals-3507395346.md:3442 |
+| `the mapping already exists in pricing-matrix/SHS Paint Pricing Matrix v1.pdf` | 1 | exports/homestretch-proposals-3507395346.md:3368 |
+| `the relevant quest folder STATUS.md` | 1 | exports/the-pit-3893871630.md:628 |
+| `the RENAMED-MANIFEST.json` | 1 | exports/mac-8414198711.md:2721 |
+| `the search results for RENAMED-MANIFEST / .xlsx / .pdf` | 1 | exports/mac-8414198711.md:2856 |
+| `then you can press Spacebar on a .md` | 1 | exports/mac-8414198711.md:937 |
+| `There is already a PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:395 |
+| `there should be a .zip` | 1 | exports/homestretch-proposals-3507395346.md:4966 |
+| `This is the only way to resurrect the exact deleted local .pdf/.xlsx/.json` | 1 | exports/mac-8414198711.md:2664 |
+| `Those root .md` | 1 | exports/mac-8414198711.md:3168 |
+| `timeless notes split out of MEMORY.md` | 1 | exports/mac-8414198711.md:841 |
+| `TODO.md` | 1 | exports/mac-8414198711.md:1853 |
+| `Trim Pack inside the 184 S 200 W PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:648 |
+| `UI requirements in projects/homestretch-proposals/PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:5289 |
+| `Understood. Right now those folders only have the .md` | 1 | exports/mac-8414198711.md:2721 |
+| `Updated both PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:5083 |
+| `updated MEMORY.md` | 1 | exports/the-pit-3893871630.md:613 |
+| `Updated memory/2026-02-01.md` | 1 | exports/mac-8414198711.md:698 |
+| `Updated memory/2026-02-02.md` | 1 | exports/homestretch-proposals-3507395346.md:1364 |
+| `Updated memory/2026-02-05.md` | 1 | exports/mac-8414198711.md:2380 |
+| `Updated memory/2026-02-06.md` | 1 | exports/homestretch-proposals-3507395346.md:5573 |
+| `Updated PRICING-JOURNAL-RULES.md` | 1 | exports/homestretch-proposals-3507395346.md:4520 |
+| `updated PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:3961 |
+| `updated projects/homestretch-proposals/jobs.md` | 1 | exports/homestretch-proposals-3507395346.md:4318 |
+| `Updated projects/homestretch-proposals/jobs.md` | 1 | exports/homestretch-proposals-3507395346.md:4953 |
+| `updated projects/homestretch-proposals/jobs.md so each job link points directly to PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:5057 |
+| `Updated projects/homestretch-proposals/PROCESS.md` | 1 | exports/mac-8414198711.md:1404 |
+| `updated projects/MEMORY-SYSTEM-RULES.md` | 1 | exports/mac-8414198711.md:1962 |
+| `Updated projects/NETWORK-ROUTING.md` | 1 | exports/mac-8414198711.md:1403 |
+| `Updated projects/the-pit/INDEX.md` | 1 | exports/the-pit-3893871630.md:184 |
+| `Updated projects/the-pit/TEMPLATES/DEPLOY-CHECKLIST.md` | 1 | exports/the-pit-3893871630.md:569 |
+| `updating projects/homestretch-proposals/jobs.md` | 1 | exports/homestretch-proposals-3507395346.md:3275 |
+| `use notes/HANDYMAN-RATE-TABLE-DRAFT.md` | 1 | exports/homestretch-proposals-3507395346.md:5123 |
+| `use pricing-matrix/handyman_unit_times.csv` | 1 | exports/homestretch-proposals-3507395346.md:5122 |
+| `Users/lrs/clawd.` | 1 | exports/mac-8414198711.md:1029 |
+| `Users/lrs/clawd/atlas` | 1 | exports/mac-8414198711.md:984 |
+| `Users/lrs/clawd/inbox` | 1 | exports/homestretch-proposals-3507395346.md:324 |
+| `Users/lrs/clawd/inbox/` | 1 | exports/homestretch-proposals-3507395346.md:3123 |
+| `Users/lrs/clawd/notes` | 1 | exports/mac-8414198711.md:984 |
+| `Users/lrs/clawd/projects/...` | 1 | exports/mac-8414198711.md:2868 |
+| `Users/lrs/clawd/projects/homestretch-proposals/...` | 1 | exports/mac-8414198711.md:2983 |
+| `Users/lrs/Library/CloudStorage/GoogleDrive-contact.nwi@home-stretch.com/.shortcut-targets-by-id/1BueKM2i2wwGV7qwWkDR4tWQH8SIFcZOO/Jobs` | 1 | exports/homestretch-proposals-3507395346.md:3214 |
+| `Users/lrs/Library/CloudStorage/GoogleDrive-contact.nwi@home-stretch.com/.shortcut-targets-by-id/1UXV9NOByATHR6Q2Ge_jKgAJ4H6KhGrFX/_inbox` | 1 | exports/homestretch-proposals-3507395346.md:3133 |
+| `Users/lrs/Library/CloudStorage/GoogleDrive-contact.nwi@home-stretch.com/.shortcut-targets-by-id/1UXV9NOByATHR6Q2Ge_jKgAJ4H6KhGrFX/_jobs:` | 1 | exports/homestretch-proposals-3507395346.md:3211 |
+| `ve already applied your memo to the 184 S 200 W project artifact by updating the existing PROPOSAL-PACK.md` | 1 | exports/homestretch-proposals-3507395346.md:466 |
+| `ve stopped that bleed and removed the Pit-specific block I accidentally added to PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:4269 |
+| `we have fastfield pushing a .zip` | 1 | exports/homestretch-proposals-3507395346.md:147 |
+| `we have the .md` | 1 | exports/mac-8414198711.md:3010 |
+| `we should explicitly encode this into PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:3728 |
+| `Were those .pdf/.xlsx/.json` | 1 | exports/mac-8414198711.md:2668 |
+| `When FastField drops the .zip` | 1 | exports/homestretch-proposals-3507395346.md:154 |
+| `with its own README.md` | 1 | exports/the-pit-3893871630.md:120 |
+| `workflow documented in HOMEstretch-Paint-Quoting-V1.md` | 1 | exports/mac-8414198711.md:1139 |
+| `working on local .xlsx` | 1 | exports/mac-8414198711.md:595 |
+| `Write/refresh PRICING-JOURNAL.md` | 1 | exports/homestretch-proposals-3507395346.md:4916 |
+| `x/HOW-TO-WORK-WITH-MAC.md` | 1 | exports/mac-8414198711.md:901 |
+| `x/README.md` | 1 | exports/mac-8414198711.md:902 |
+| `xlsx .pdf .zip .json` | 1 | exports/mac-8414198711.md:2935 |
+| `Yes. I just updated projects/homestretch-proposals/PROCESS.md` | 1 | exports/homestretch-proposals-3507395346.md:3371 |
+| `your .xlsx` | 1 | exports/mac-8414198711.md:642 |

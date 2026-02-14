@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Mac",
+    "id": 8414198711,
+    "type": "bot_chat",
+    "messages": 241,
+    "file": "mac-8414198711.md"
+  },
+  {
+    "name": "HOMEstretch Proposals",
+    "id": 3507395346,
+    "type": "private_supergroup",
+    "messages": 570,
+    "file": "homestretch-proposals-3507395346.md"
+  },
+  {
+    "name": "Summers Groceries",
+    "id": 3790799736,
+    "type": "private_supergroup",
+    "messages": 83,
+    "file": "summers-groceries-3790799736.md"
+  },
+  {
+    "name": "HOMEstretch Sheets",
+    "id": 5248330880,
+    "type": "private_group",
+    "messages": 32,
+    "file": "homestretch-sheets-5248330880.md"
+  },
+  {
+    "name": "Luke Passport",
+    "id": 5018399744,
+    "type": "private_group",
+    "messages": 55,
+    "file": "luke-passport-5018399744.md"
+  },
+  {
+    "name": "Migration",
+    "id": 3510453297,
+    "type": "private_supergroup",
+    "messages": 14,
+    "file": "migration-3510453297.md"
+  },
+  {
+    "name": "The Pit",
+    "id": 3893871630,
+    "type": "private_supergroup",
+    "messages": 56,
+    "file": "the-pit-3893871630.md"
+  },
+  {
+    "name": "BotFather",
+    "id": 93372553,
+    "type": "bot_chat",
+    "messages": 38,
+    "file": "botfather-93372553.md"
+  }
+]

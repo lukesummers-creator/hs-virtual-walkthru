@@ -1,0 +1,109 @@
+{
+  "createdAt": "2026-02-07T16:04:16.911Z",
+  "results": [
+    {
+      "zip": "5836efb0-2ae3-4f63-b888-ec7ea5f690cb.zip",
+      "jobFolder": "13547 Drummond St Cedar Lake",
+      "addr": "13547 Drummond St Cedar Lake",
+      "json": "071a4053-d2f7-4d58-8cef-60efcac6c21d.json"
+    },
+    {
+      "zip": "0da48e2f-4b1e-405b-af98-94daff926192.zip",
+      "jobFolder": "5565 E 73rd Ave",
+      "addr": "5565 E 73rd Ave",
+      "json": "a8ad2938-1ff4-4cd4-992e-c373b7738bf3.json"
+    },
+    {
+      "zip": "69db7ba0-3a19-41d9-8e1e-b0c26b2e43c5.zip",
+      "jobFolder": "7540 W 92nd Ave Crown Point",
+      "addr": "7540 W 92nd Ave Crown Poin",
+      "json": "3ff23671-1356-430e-a4e5-332986de7870.json"
+    },
+    {
+      "zip": "4af5fa08-d874-40a2-bfe4-14964023b84e.zip",
+      "jobFolder": "239 Carnoustie Ct Schererville",
+      "addr": "239 Carnoustie Ct Scherervil",
+      "json": "96e2c670-5d62-4822-b7a5-101239261ed1.json"
+    },
+    {
+      "zip": "5ce8d36b-efc3-407d-a55d-91944488da4d.zip",
+      "jobFolder": "1107 W 62nd Pl Merrillville",
+      "addr": "1107 W 62nd Pl Merrillvil",
+      "json": "eb377402-74de-4d1d-ac8d-fbfff1327496.json"
+    },
+    {
+      "zip": "75f7370c-1f39-45fb-9e22-4b1c6f1443bd.zip",
+      "jobFolder": "9046 Kleinman Rd Highland",
+      "addr": "9046 Kleinman Rd Highland",
+      "json": "78b99a1f-aa51-47ac-b4dd-e7cbe6da49cd.json"
+    },
+    {
+      "zip": "7a5db031-d11a-4ceb-b045-83fb77c2bd72.zip",
+      "jobFolder": "123 Test St Cedar Lake",
+      "addr": "123 Test St Cedar Lake",
+      "json": "e9ffc050-d37a-45af-812f-fc1fc21c30b0.json"
+    },
+    {
+      "zip": "d2b505ab-d5e8-4426-87ce-c2b681691644.zip",
+      "jobFolder": "188 Goodview Dr Valpo",
+      "addr": "188 Goodview Dr Valpo",
+      "json": "a99be57f-f77e-4e0c-850d-9c6a362c0450.json"
+    },
+    {
+      "zip": "cd4afa27-bdf8-4e90-a4b8-587646dad384.zip",
+      "jobFolder": "10421 Privet Dr St John",
+      "addr": "10421 Privet Dr St John",
+      "json": "5ce9df6d-6605-4f94-8d50-3a4023749daa.json"
+    },
+    {
+      "zip": "d0c04e37-bf9d-47c2-a239-4d3458fba69e.zip",
+      "jobFolder": "UNKNOWN__d0c04e37-bf9d-47c2-a239-4d3458fba69e",
+      "addr": "UNKNOWN",
+      "json": "7acb84f2-fa3e-4d47-b9dc-a1f19e3278fe.json"
+    }
+  ],
+  "dedupe": {
+    "archived": [
+      {
+        "zip": "071a4053-d2f7-4d58-8cef-60efcac6c21d.zip",
+        "from": "/Users/lrs/clawd/_INBOX/fastfield-zips/071a4053-d2f7-4d58-8cef-60efcac6c21d.zip",
+        "to": "/Users/lrs/clawd/_INBOX/fastfield-zips/_dedupe-archive/13547 Drummond St Cedar Lake/071a4053-d2f7-4d58-8cef-60efcac6c21d.zip"
+      },
+      {
+        "zip": "071a4053-d2f7-4d58-8cef-60efcac6c21d.zip",
+        "from": "/Users/lrs/clawd/projects/homestretch-proposals/_ARTIFACTS/fastfield-zips/071a4053-d2f7-4d58-8cef-60efcac6c21d.zip",
+        "to": "/Users/lrs/clawd/projects/homestretch-proposals/_ARTIFACTS/fastfield-zips/_dedupe-archive/13547 Drummond St Cedar Lake/071a4053-d2f7-4d58-8cef-60efcac6c21d.zip"
+      },
+      {
+        "zip": "a8ad2938-1ff4-4cd4-992e-c373b7738bf3.zip",
+        "from": "/Users/lrs/clawd/_INBOX/fastfield-zips/a8ad2938-1ff4-4cd4-992e-c373b7738bf3.zip",
+        "to": "/Users/lrs/clawd/_INBOX/fastfield-zips/_dedupe-archive/5565 E 73rd Ave/a8ad2938-1ff4-4cd4-992e-c373b7738bf3.zip"
+      },
+      {
+        "zip": "a8ad2938-1ff4-4cd4-992e-c373b7738bf3.zip",
+        "from": "/Users/lrs/clawd/projects/homestretch-proposals/_ARTIFACTS/fastfield-zips/a8ad2938-1ff4-4cd4-992e-c373b7738bf3.zip",
+        "to": "/Users/lrs/clawd/projects/homestretch-proposals/_ARTIFACTS/fastfield-zips/_dedupe-archive/5565 E 73rd Ave/a8ad2938-1ff4-4cd4-992e-c373b7738bf3.zip"
+      },
+      {
+        "zip": "3ff23671-1356-430e-a4e5-332986de7870.zip",
+        "from": "/Users/lrs/clawd/_INBOX/fastfield-zips/3ff23671-1356-430e-a4e5-332986de7870.zip",
+        "to": "/Users/lrs/clawd/_INBOX/fastfield-zips/_dedupe-archive/7540 W 92nd Ave Crown Point/3ff23671-1356-430e-a4e5-332986de7870.zip"
+      },
+      {
+        "zip": "3ff23671-1356-430e-a4e5-332986de7870.zip",
+        "from": "/Users/lrs/clawd/projects/homestretch-proposals/_ARTIFACTS/fastfield-zips/3ff23671-1356-430e-a4e5-332986de7870.zip",
+        "to": "/Users/lrs/clawd/projects/homestretch-proposals/_ARTIFACTS/fastfield-zips/_dedupe-archive/7540 W 92nd Ave Crown Point/3ff23671-1356-430e-a4e5-332986de7870.zip"
+      },
+      {
+        "zip": "a99be57f-f77e-4e0c-850d-9c6a362c0450.zip",
+        "from": "/Users/lrs/clawd/_INBOX/fastfield-zips/a99be57f-f77e-4e0c-850d-9c6a362c0450.zip",
+        "to": "/Users/lrs/clawd/_INBOX/fastfield-zips/_dedupe-archive/188 Goodview Dr Valpo/a99be57f-f77e-4e0c-850d-9c6a362c0450.zip"
+      },
+      {
+        "zip": "a99be57f-f77e-4e0c-850d-9c6a362c0450.zip",
+        "from": "/Users/lrs/clawd/projects/homestretch-proposals/_ARTIFACTS/fastfield-zips/a99be57f-f77e-4e0c-850d-9c6a362c0450.zip",
+        "to": "/Users/lrs/clawd/projects/homestretch-proposals/_ARTIFACTS/fastfield-zips/_dedupe-archive/188 Goodview Dr Valpo/a99be57f-f77e-4e0c-850d-9c6a362c0450.zip"
+      }
+    ]
+  }
+}
