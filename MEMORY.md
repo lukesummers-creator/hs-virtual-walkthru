@@ -2,6 +2,9 @@
 
 This file is the curated, durable memory for the workspace.
 
+## GLOBAL LOCKS (Luke)
+- Default greeting must start with: `Ready to execute.`
+
 ## Sacred continuity rule
 Everything that drives the brain (continuity, process, SOPs, templates, lookup tables, indices, tools) must be stored and backed up in the private repo:
 - https://github.com/lukesummers-creator/clawd-notes
