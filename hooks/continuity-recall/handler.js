@@ -71,9 +71,10 @@ function readCoreRulesBullets(macBrainDir) {
   const txt = fs.readFileSync(p, 'utf8');
 
   const bullets = [];
-  // Pull the two most important continuity anchors.
+  // Pull the most important continuity anchors (keep small so it doesn't swamp prompts).
   const lines = txt.split(/\r?\n/);
   const want = [
+    /Learning layer/i,
     /Brain-first default/i,
     /Session boot rule/i
   ];
