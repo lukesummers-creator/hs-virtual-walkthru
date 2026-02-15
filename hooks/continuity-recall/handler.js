@@ -12,6 +12,7 @@ import path from 'path';
 const MAX_RESULTS = 5;
 const MAX_PROMPT_LEN = 500;
 const MAX_SNIPPET_LEN = 220;
+const MAX_PROJECT_SNIPPETS = 6;
 
 function sanitize(str) {
   if (typeof str !== 'string') return '';
@@ -94,6 +95,73 @@ function readCoreRulesBullets(macBrainDir) {
   return bullets;
 }
 
+function getTelegramGroupIdFromSessionKey(sessionKey) {
+  const s = (sessionKey || '').toString();
+  const m = s.match(/:group:(-?\d+)/);
+  return m ? m[1] : '';
+}
+
+function readProjectHydration(macBrainDir, sessionKey) {
+  // Hard-map known Telegram rooms → their project docs.
+  // Goal: newborn sessions (/new) immediately rehydrate the right project rules.
+  const gid = getTelegramGroupIdFromSessionKey(sessionKey);
+  if (!gid) return [];
+
+  const map = {
+    // Groceries
+    '-1003790799736': {
+      title: 'Groceries rules',
+      files: ['projects/groceries/GROCERIES-RULES.md']
+    },
+    // Proposals
+    '-1003507395346': {
+      title: 'Proposals process',
+      files: [
+        'projects/homestretch-proposals/PROCESS.md',
+        'projects/homestretch-proposals/PRICING-JOURNAL-RULES.md'
+      ]
+    },
+    // Migration
+    '-1003510453297': { title: 'Migration notes', files: ['projects/migration/PROCESS.md'] },
+    // Sheets
+    '-5248330880': { title: 'Sheets notes', files: ['projects/sheets/PROCESS.md'] },
+    // Passport
+    '-5018399744': { title: 'Passport notes', files: ['projects/passport/PROCESS.md'] },
+    // The Pit
+    '-1003893871630': { title: 'The Pit notes', files: ['projects/the-pit/PROCESS.md'] }
+  };
+
+  const entry = map[gid];
+  if (!entry) return [];
+
+  const snippets = [];
+  for (const rel of entry.files) {
+    const p = path.join(macBrainDir, rel);
+    if (!fs.existsSync(p)) continue;
+    const lines = fs.readFileSync(p, 'utf8').split(/\r?\n/);
+    // Take first non-empty 25 lines as a quick rules snapshot.
+    const head = [];
+    for (const l of lines) {
+      const t = l.trim();
+      if (!t) continue;
+      if (t.startsWith('#')) continue; // skip headers
+      head.push(t);
+      if (head.length >= 6) break;
+    }
+    for (const h of head) {
+      snippets.push(truncate(h, MAX_SNIPPET_LEN));
+      if (snippets.length >= MAX_PROJECT_SNIPPETS) break;
+    }
+    if (snippets.length >= MAX_PROJECT_SNIPPETS) break;
+  }
+
+  // Add a short title line at the top when we have any snippets.
+  if (snippets.length) {
+    snippets.unshift(truncate(entry.title, MAX_SNIPPET_LEN));
+  }
+  return snippets;
+}
+
 function readVaultIndexMatches(macBrainDir, query) {
   const p = path.join(macBrainDir, 'vault', 'VAULT-INDEX.md');
   if (!fs.existsSync(p)) return [];
@@ -151,7 +219,7 @@ function runRecall(macBrainDir, query) {
   return results;
 }
 
-function buildContextBlock(prompt, coreBullets, vaultIndexMatches, recallHits) {
+function buildContextBlock(prompt, coreBullets, projectHydration, vaultIndexMatches, recallHits) {
   const header = '[Context pulled from your brain] Relevant prior context';
   const lines = [header];
 
@@ -159,6 +227,12 @@ function buildContextBlock(prompt, coreBullets, vaultIndexMatches, recallHits) {
     lines.push('');
     lines.push('Core rules:');
     for (const b of coreBullets) lines.push(`- ${b}`);
+  }
+
+  if (projectHydration.length) {
+    lines.push('');
+    lines.push('Project rehydrate:');
+    for (const row of projectHydration) lines.push(`- ${row}`);
   }
 
   if (vaultIndexMatches.length) {
@@ -202,14 +276,15 @@ export default async function handler(event) {
     const prompt = extractInitialPrompt(event);
 
     const coreBullets = readCoreRulesBullets(macBrainDir);
+    const projectHydration = readProjectHydration(macBrainDir, event?.sessionKey);
     const vaultIndexMatches = prompt ? readVaultIndexMatches(macBrainDir, prompt) : [];
     const recallHits = prompt ? runRecall(macBrainDir, prompt) : [];
 
     // If no prompt exists yet, still inject baseline continuity anchors so new sessions feel consistent.
-    if (!prompt && !coreBullets.length) return;
-    if (prompt && !coreBullets.length && !vaultIndexMatches.length && !recallHits.length) return;
+    if (!prompt && !coreBullets.length && !projectHydration.length) return;
+    if (prompt && !coreBullets.length && !projectHydration.length && !vaultIndexMatches.length && !recallHits.length) return;
 
-    const block = buildContextBlock(prompt || 'session start', coreBullets, vaultIndexMatches, recallHits);
+    const block = buildContextBlock(prompt || 'session start', coreBullets, projectHydration, vaultIndexMatches, recallHits);
 
     if (!Array.isArray(event.messages)) event.messages = [];
     // inject as system message
