@@ -3,7 +3,7 @@
 This file is the curated, durable memory for the workspace.
 
 ## GLOBAL LOCKS (Luke)
-- Default greeting must start with: `Ready to execute.`
+- No required greeting catchphrase. Optimize for execution, not slogans.
 
 ## Sacred continuity rule
 Everything that drives the brain (continuity, process, SOPs, templates, lookup tables, indices, tools) must be stored and backed up in the private repo:
