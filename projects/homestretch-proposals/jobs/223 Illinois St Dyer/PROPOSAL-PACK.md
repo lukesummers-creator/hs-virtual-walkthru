@@ -25,7 +25,7 @@ Thank you for considering HOMEstretch to help you list your home at its best.
 
 By tapping below, you can view and e-sign your proposal. If you have any questions or would like to adjust the scope, please don’t hesitate to reach out.
 
-For Bathroom 2 (construction zone), our licensed partner Tony will complete the construction items (drywall hang, vanity/toilet/flooring, shower pan/surround, etc.) to get the space ready for finishing. HOMEstretch will then return to complete the drywall finishing (mud/tape/sand) and final paint.
+For Bathroom 2 (construction zone), our licensed partner Tony will complete the construction items (drywall hang, vanity/toilet/flooring, shower pan/surround, etc.) to get the space ready for finishing. HOMEstretch will then complete the drywall finishing (mud/tape/sand) and final paint.
 
 Once we receive a signed proposal, we’ll send an invoice requesting a 50% deposit to reserve your spot on the schedule.
 
@@ -40,51 +40,53 @@ The HOMEstretch Team
 
 # 1) PAINT — Triangle + Recommendation
 
-## Rooms included (paint-required)
+## Rooms included (base paint)
 - Living Room
 - Main Bedroom
 - Bedroom 2
 - Kitchen
 - Bathroom
+
+Construction-zone add-on (separate service lines):
 - Bathroom 2
 
 ## Quick metrics
-- WorkedFloorSF used (sum L×W): **~845 sf**
+- WorkedFloorSF used (sum L×W) for base paint: **~806 sf**
 
 ## Key repair / scope drivers pulled from notes (for pricing pass)
 - Kitchen: repair settlement crack + paint one wall (notes)
 - Bathroom 2 is a construction-zone handoff (Tony completes construction; HOMEstretch finishes drywall + paint)
 - Small job: mobilization + masking + protection are a larger share of total time
 
-## Triangle (baseline)
+## Triangle (baseline — base paint only; Bathroom 2 excluded)
 ### 1) Cost Plus (production anchor)
-- Customer Price: **$4,400.00**
-- Materials Cost: **$572.00**
-- Labor Cost: **$1,797.40**
-- Customer Price $/sf @ **845 sf**: **$5.21/sf**
+- Customer Price: **$4,050.00**
+- Materials Cost: **$526.50**
+- Labor Cost: **$1,654.42**
+- Customer Price $/sf @ **806 sf**: **$5.02/sf**
 
 ### 2) Room Rate (matrix benchmark)
-- Customer Price: **$4,700.00**
-- Materials Cost: **$611.00**
-- Labor Cost: **$1,919.95**
-- Customer Price $/sf @ **845 sf**: **$5.56/sf**
+- Customer Price: **$4,300.00**
+- Materials Cost: **$559.00**
+- Labor Cost: **$1,756.55**
+- Customer Price $/sf @ **806 sf**: **$5.33/sf**
 
 ### 3) $/Floor-sqft sanity band
-- Customer Price: **$4,100.00**
-- Materials Cost: **$533.00**
-- Labor Cost: **$1,674.85**
-- Customer Price $/sf @ **845 sf**: **$4.85/sf**
+- Customer Price: **$3,750.00**
+- Materials Cost: **$487.50**
+- Labor Cost: **$1,531.88**
+- Customer Price $/sf @ **806 sf**: **$4.65/sf**
 
-## Recommendation (paint)
-- Customer Price: **$4,750.00**
-- Materials Cost: **$617.50**
-- Labor Cost: **$1,940.38**
-- Customer Price $/sf @ **845 sf**: **$5.62/sf**
+## Recommendation (paint — base paint)
+- Customer Price: **$4,350.00**
+- Materials Cost: **$565.50**
+- Labor Cost: **$1,776.97**
+- Customer Price $/sf @ **806 sf**: **$5.40/sf**
 
-### Bathroom 2 — construction zone add-on (split service line)
-Bathroom 2 includes a post-construction finish phase. To keep responsibilities clean (HOMEstretch does not perform construction/structural work), we split this into two services:
+### Bathroom 2 — construction zone (separate service lines)
+Bathroom 2 is intentionally excluded from the base paint triangle and priced separately to reflect the Tony→HOMEstretch handoff:
 - **Drywall finish (mud/tape/sand) after Tony’s drywall install** (Bathroom 2 + exterior entry paneling-to-drywall area): **~$1,100** customer price (draft anchor; bundled dry-time savings assumed)
-- **Paint (PVA prime + 2 finish coats)** — walls + ceiling + (1) door + paint new casing/drywall at exterior entry: **~$600** customer price (draft anchor; validate after scope pass)
+- **Post-construction paint (PVA prime + 2 finish coats)** — walls + ceiling + (1) door + paint new casing/drywall at exterior entry: **~$600** customer price (draft anchor; validate after scope pass)
 
 Scope note (clutter / concealed damage): Due to furniture/clutter we couldn’t fully assess all wall conditions. Once areas are cleared, additional repairs may be needed and may result in additional cost. HOMEstretch will notify client and get approval before any additional work is added to scope.
 
@@ -123,7 +125,11 @@ Kitchen: Drywall repair (settlement crack); prep/paint walls (see notes).
 
 Bathroom: Prep/paint walls.
 
-Bathroom 2 (post-construction): After Tony completes the construction items and new drywall install, HOMEstretch will drywall-finish (mud/tape/sand) and then prep/prime (PVA) and paint walls and ceiling; prep/paint (1) door. This scope also includes painting the new drywall + casing at the bathroom exterior entry area once installed.
+## Bathroom 2 — Drywall Finish — SCOPE DETAILS
+After Tony completes the construction items and new drywall install, HOMEstretch will tape, mud, sand, and ready new drywall for painting (Bathroom 2 and the bathroom exterior-entry paneling-to-drywall area once installed).
+
+## Bathroom 2 — Paint — SCOPE DETAILS
+After drywall finishing is complete and dry, HOMEstretch will prime new drywall with PVA and paint walls and ceiling; prep/paint (1) door; and paint new casing/drywall at the bathroom exterior entry area once installed.
 
 Repair clarification: “Drywall repair” in this scope refers to more significant repairs such as settlement cracks, failing tape seams, damaged corner bead, and similar conditions beyond minor patching. Minor drywall patching (e.g., nail/screw holes and small dings) is included as part of standard prep and paint.
 
@@ -131,7 +137,7 @@ Concealed wall damage: Due to furniture/clutter we couldn’t fully assess all w
 
 Patch and paint includes filling nail holes and minor drywall repair. Two coats of paint are used on painted surfaces unless otherwise specified.
 
-Bathroom 2 note: New drywall areas require a drywall finishing phase (mud/tape/sand) and a drywall primer (PVA) prior to finish painting.
+Bathroom 2 note: New drywall areas require a drywall finishing phase (mud/tape/sand) and a drywall primer (PVA) prior to finish painting. Bathroom 2 is broken out under its own headers above.
 
 Paint and materials are included in Service Quote.
 

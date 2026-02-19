@@ -15,15 +15,16 @@
 - Renamed photos: `renamed-images/` + `RENAMED-MANIFEST.json`
 
 ## Paint takeoffs
-- Paint-required rooms: **6**
+- Paint-required rooms (base paint): **5**
+- Construction-zone room (separate service lines): **Bathroom 2**
 - Paint options snapshot:
   - Mostly **walls-only**
   - Main Bedroom: **(1) door**
-  - Bathroom 2: **walls + ceiling + (1) door**
   - Kitchen notes: **repair settlement crack** + paint one wall
 
 ### WorkedFloorSF (sanity)
-- WorkedFloorSF (Σ L×W across paint-required rooms): **~845 sf**
+- WorkedFloorSF (Σ L×W across base-paint rooms): **~806 sf**
+- Bathroom 2 floor SF (6 × 6.5): **~39 sf** (excluded from base triangle; handled as add-on)
 
 ## Handyman snapshot
 - Handyman-required rooms: **2**
@@ -34,26 +35,30 @@
 ## Paint triangle (baseline)
 Constants (standard): fees f=10.25% (franchise + card); GM target g=40% net of fees; materials target m=13%.
 
-Baseline production anchor:
+Baseline production anchor (base paint, excluding Bathroom 2 construction-zone add-on):
 - 2-person crew @ $300 per painter-day (=$600 per crew-day)
-- Draft production: **2 painters × 3.0 days** (= 6 painter-days)
-- Labor cost anchor L: **$1,800**
+- Draft production: **2 painters × 2.75 days** (= 5.5 painter-days)
+- Labor cost anchor L: **$1,650**
 
 Solve customer price:
 - P = L / ( (1−f)(1−g) − m )
 - Denominator ≈ (0.8975×0.6) − 0.13 = 0.4085
-- Cost Plus P ≈ 1800 / 0.4085 ≈ **$4,406**
+- Cost Plus P ≈ 1650 / 0.4085 ≈ **$4,039**
 
 Back-into costs (for each point):
 - Materials = m × P
 - Allowed cost pool = P × (1−f) × (1−g)
 - Labor allowed = Allowed cost pool − Materials
 
-Points (WorkedFloorSF ~845 sf):
-- Cost Plus: Customer $4,400; Materials ~$572; Labor ~$1,797; $/sf ~$5.21
-- Room Rate: Customer $4,700; Materials ~$611; Labor ~$1,920; $/sf ~$5.56
-- $/sf sanity: Customer $4,100; Materials ~$533; Labor ~$1,675; $/sf ~$4.85
-- Recommendation: Customer $4,750; Materials ~$618; Labor ~$1,940; $/sf ~$5.62
+Points (WorkedFloorSF ~806 sf):
+- Cost Plus: Customer $4,050; Materials ~$526; Labor ~$1,654; $/sf ~$5.02
+- Room Rate: Customer $4,300; Materials ~$559; Labor ~$1,757; $/sf ~$5.33
+- $/sf sanity: Customer $3,750; Materials ~$488; Labor ~$1,532; $/sf ~$4.65
+- Recommendation: Customer $4,350; Materials ~$566; Labor ~$1,777; $/sf ~$5.40
+
+Add-ons (outside base triangle):
+- Bathroom 2 — drywall finish (mud/tape/sand): **~$1,100** customer price (draft)
+- Bathroom 2 — post-construction paint (PVA + 2 coats): **~$600** customer price (draft)
 
 ## Bathroom 2 (construction zone) — split scope (DRAFT)
 Tony scope (referred / not HOMEstretch): hang drywall, install vanity/floor/toilet, refinish shower pan + surround; also remove exterior-entry paneling and replace with drywall + door casing.
