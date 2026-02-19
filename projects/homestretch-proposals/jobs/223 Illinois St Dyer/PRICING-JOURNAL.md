@@ -58,8 +58,8 @@ Points (WorkedFloorSF ~806 sf):
 - Recommendation: Customer $3,650; Materials ~$475; Labor ~$1,491; $/sf ~$4.53
 
 Add-ons (outside base triangle):
-- Bathroom 2 — drywall finish (mud/tape/sand): **~$1,100** customer price (draft)
-- Bathroom 2 — post-construction paint (PVA + 2 coats): **~$600** customer price (draft)
+- Bathroom 2 — drywall finish (mud/tape/sand): **$915** customer price (Gemini quote bot anchor; draft)
+- Bathroom 2 — post-construction paint (PVA + 2 coats): **$625** customer price (Gemini quote bot anchor; draft)
 
 ## Bathroom 2 (construction zone) — split scope (DRAFT)
 Tony scope (referred / not HOMEstretch): hang drywall, install vanity/floor/toilet, refinish shower pan + surround; also remove exterior-entry paneling and replace with drywall + door casing.
@@ -68,10 +68,11 @@ HOMEstretch scope starts after Tony:
 - **Service Line A — Drywall finish (mud + tape + sand)** for new drywall (bath + exterior entry area).
   - Estimating unit: **1 painter** doing finish work.
   - Internal cost: **$300 per painter-day** (NOT $600; $600 is a 2-painter crew-day).
-  - Production allowance (active touch time, bundled with other painting during dry times): **~1.5 painter-days** ⇒ labor cost **~$450**.
-  - Customer price (triangle baseline; f=10.25%, g=40%, m=13%): **~$1,100** (rounding target TBD).
+  - Production allowance (dry-time throttled but bundled with other painting): **~1.5 crew-days** ⇒ labor cost **~$900** (at $600/crew-day).
+  - Customer price anchor (Gemini quote bot): **$915**.
 - **Service Line B — Paint (PVA + 2 coats)**: paint **walls + ceiling + door** (plus paint new casing/drywall at exterior entry area).
-  - Customer price target (Luke baseline): **~$600** for the bath paint portion (validate during scope pass).
+  - Production allowance (masking-heavy around new fixtures + PVA + 2 coats): **~1.0 crew-day** ⇒ labor cost **~$600**.
+  - Customer price anchor (Gemini quote bot): **$625**.
 
 ## Next
 - Service pass: validate room-by-room scope (ceilings/trim/doors), confirm repair depth, and reconcile any flooring flags.
