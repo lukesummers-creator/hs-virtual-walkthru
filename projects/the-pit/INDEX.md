@@ -5,7 +5,10 @@
    - Status: **Active**  
    - Next: decide where this lives in `projects/homestretch-proposals/` (snippet file vs PROCESS.md addendum)
 
-2) *(empty)*
+2) **ai-media-lab** — Vision + Image Gen (Gemini/Imagen) as a reusable system capability
+   - Status: **Active**
+   - Next: map OpenClaw tool surfaces + pick manual script approach (no hooks)
+
 3) *(empty)*
 
 ---
