@@ -60,28 +60,28 @@ Construction-zone add-on (separate service lines):
 
 ## Triangle (baseline — base paint only; Bathroom 2 excluded)
 ### 1) Cost Plus (production anchor)
-- Customer Price: **$4,050.00**
-- Materials Cost: **$526.50**
-- Labor Cost: **$1,654.42**
-- Customer Price $/sf @ **806 sf**: **$5.02/sf**
+- Customer Price: **$3,300.00**
+- Materials Cost: **$429.00**
+- Labor Cost: **$1,348.05**
+- Customer Price $/sf @ **806 sf**: **$4.09/sf**
 
 ### 2) Room Rate (matrix benchmark)
-- Customer Price: **$4,300.00**
-- Materials Cost: **$559.00**
-- Labor Cost: **$1,756.55**
-- Customer Price $/sf @ **806 sf**: **$5.33/sf**
+- Customer Price: **$3,600.00**
+- Materials Cost: **$468.00**
+- Labor Cost: **$1,470.60**
+- Customer Price $/sf @ **806 sf**: **$4.47/sf**
 
 ### 3) $/Floor-sqft sanity band
-- Customer Price: **$3,750.00**
-- Materials Cost: **$487.50**
-- Labor Cost: **$1,531.88**
-- Customer Price $/sf @ **806 sf**: **$4.65/sf**
+- Customer Price: **$3,100.00**
+- Materials Cost: **$403.00**
+- Labor Cost: **$1,266.35**
+- Customer Price $/sf @ **806 sf**: **$3.85/sf**
 
 ## Recommendation (paint — base paint)
-- Customer Price: **$4,350.00**
-- Materials Cost: **$565.50**
-- Labor Cost: **$1,776.97**
-- Customer Price $/sf @ **806 sf**: **$5.40/sf**
+- Customer Price: **$3,650.00**
+- Materials Cost: **$474.50**
+- Labor Cost: **$1,491.02**
+- Customer Price $/sf @ **806 sf**: **$4.53/sf**
 
 ### Bathroom 2 — construction zone (separate service lines)
 Bathroom 2 is intentionally excluded from the base paint triangle and priced separately to reflect the Tony→HOMEstretch handoff:
@@ -117,11 +117,11 @@ Scope note (clutter / concealed damage): Due to furniture/clutter we couldn’t 
 ## Base Paint — SCOPE DETAILS
 Living Room: Prep/paint walls.
 
-Main Bedroom: Prep/paint (1) door.
+Main Bedroom: Prep/paint walls; prep/paint (1) door.
 
 Bedroom 2: Prep/paint walls.
 
-Kitchen: Drywall repair (settlement crack); prep/paint walls (see notes).
+Kitchen: Drywall repair (settlement crack); prep/paint walls.
 
 Bathroom: Prep/paint walls.
 
