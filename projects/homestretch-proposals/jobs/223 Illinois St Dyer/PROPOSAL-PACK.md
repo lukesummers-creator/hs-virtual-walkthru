@@ -87,6 +87,7 @@ Construction-zone add-on (separate service lines):
 Bathroom 2 is intentionally excluded from the base paint triangle and priced separately to reflect the Tony→HOMEstretch handoff:
 - **Drywall finish (mud/tape/sand) after Tony’s drywall install** (Bathroom 2 + exterior entry paneling-to-drywall area): **$915** customer price (draft)
 - **Post-construction paint (PVA prime + 2 finish coats)** — walls + ceiling + (1) door + paint new casing/drywall at exterior entry: **$625** customer price (draft)
+- Bundling note: The Bathroom 2 drywall finish + paint pricing assumes it is completed as part of a larger project timeline (allowing us to sequence dry times efficiently). If Bathroom 2 is requested as a standalone service, pricing may be higher due to additional mobilization and schedule inefficiencies.
 
 Scope note (clutter / concealed damage): Due to furniture/clutter we couldn’t fully assess all wall conditions. Once areas are cleared, additional repairs may be needed and may result in additional cost. HOMEstretch will notify client and get approval before any additional work is added to scope.
 
