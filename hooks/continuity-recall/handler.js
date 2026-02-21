@@ -261,6 +261,13 @@ export default async function handler(event) {
     if (eventType === 'command' && action === 'new') {
       if (Array.isArray(event.messages)) {
         event.messages.push('[continuity-recall] FYI: /new resets session context. If something feels important, harden it into files (CORE-RULES / project docs) before resetting.');
+
+        const macBrainDir = getMacBrainDir();
+        if (macBrainDir) {
+          event.messages.push(`[re-anchor] Canon brain repo: ${macBrainDir} (CORE-RULES: ${macBrainDir}/continuity/CORE-RULES.md)`);
+        } else {
+          event.messages.push('[re-anchor] Canon brain repo: /Users/lrs/mac-brain (expected default path)');
+        }
       }
       return;
     }
